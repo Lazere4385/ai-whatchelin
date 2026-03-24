@@ -6,6 +6,17 @@
 
 > *"도구가 너무 많아서 도구 고르다 하루가 간다"* — 2026년 개발자의 흔한 하루
 
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'pie1': '#6366f1', 'pie2': '#3b82f6', 'pie3': '#10b981', 'pie4': '#f59e0b', 'pie5': '#ec4899', 'pie6': '#8b5cf6', 'pieTitleTextColor': '#888', 'pieSectionTextColor': '#fff', 'pieLegendTextColor': '#888', 'pieOuterStrokeColor': '#555'}}}%%
+pie title "개발자들이 실제로 쓰는 조합 (커뮤니티 기반)"
+    "Cursor + Claude Code" : 35
+    "Windsurf + Codex CLI" : 20
+    "GitHub Copilot 단독" : 15
+    "Aider + 로컬 LLM" : 10
+    "Antigravity" : 8
+    "기타 조합" : 12
+```
+
 ---
 
 ## 2026 카테고리별 인기 순위
@@ -463,17 +474,6 @@ $20/월 격전지 — 8개 도구가 같은 가격에 경쟁
 ---
 
 ## 2026 커뮤니티 컨센서스
-
-```mermaid
-
-pie title "개발자들이 실제로 쓰는 조합 (커뮤니티 기반)"
-    "Cursor + Claude Code" : 35
-    "Windsurf + Codex CLI" : 20
-    "GitHub Copilot 단독" : 15
-    "Aider + 로컬 LLM" : 10
-    "Antigravity" : 8
-    "기타 조합" : 12
-```
 
 ### The Ultimate 한 줄 평
 
