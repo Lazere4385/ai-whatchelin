@@ -30,7 +30,7 @@
 </p>
 
 <p align="center">
-  <em>"도구가 너무 많아서 도구 고르다 하루가 간다" — 2026년 개발자의 흔한 하루</em>
+  <em>"도구가 너무 많아서 도구 고르다 하루가 간다" — 2026년 바이브코더의 흔한 하루</em>
 </p>
 
 <table align="center">
@@ -72,7 +72,7 @@
 
 ---
 
-## 개발자들이 실제로 쓰는 조합
+## 바이브코더들이 실제로 쓰는 조합
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'pie1': '#6366f1', 'pie2': '#3b82f6', 'pie3': '#10b981', 'pie4': '#f59e0b', 'pie5': '#ec4899', 'pie6': '#8b5cf6', 'pieTitleTextColor': '#888', 'pieSectionTextColor': '#fff', 'pieLegendTextColor': '#888', 'pieOuterStrokeColor': '#555'}}}%%
@@ -104,8 +104,8 @@ pie title "2026 커뮤니티 기반 도구 조합"
 │  └─ 코딩 경험 없다 → Lovable | v0.app
 │
 ├─ 업무를 자동화하고 싶다
-│  ├─ 개발자 → Devin (자율 코딩 에이전트)
-│  └─ 비개발자 → Claude Cowork (업무 에이전트)
+│  ├─ 바이브코더 → Devin (자율 코딩 에이전트)
+│  └─ 논코더 → Claude Cowork (업무 에이전트)
 │
 └─ AI한테 물어보고 싶다
    ├─ 범용 → ChatGPT | Claude.ai | Gemini
@@ -125,7 +125,7 @@ pie title "2026 커뮤니티 기반 도구 조합"
 | 2 | **[Cursor](https://cursor.com)** | AI IDE | $29.3B 밸류, NVIDIA 4만 엔지니어 사용, 탭 자동완성 최강 |
 | 3 | **[GitHub Copilot](https://github.com/features/copilot)** | AI IDE/플러그인 | 가장 널리 채택된 AI 개발 도구, 9+ IDE, $10/월 최저가 |
 | 4 | **[Windsurf](https://windsurf.com)** | AI IDE | LogRocket 2026 1위, Cascade 메모리, 대규모 코드베이스 강점 |
-| 5 | **[Codex CLI](https://developers.openai.com/codex/cli)** | 코딩 에이전트 | 출시 1개월 100만 개발자, 안전한 샌드박스, 240+ tok/s |
+| 5 | **[Codex CLI](https://developers.openai.com/codex/cli)** | 코딩 에이전트 | 출시 1개월 100만 바이브코더, 안전한 샌드박스, 240+ tok/s |
 
 ### 범용 AI 채팅
 
@@ -183,11 +183,11 @@ pie title "2026 커뮤니티 기반 도구 조합"
 ├── 앱 빌더
 │   ├── Bolt.new ········ 브라우저 IDE, $0~25/월
 │   ├── v0.app ·········· Vercel 통합, $0~100/user/월
-│   ├── Lovable ········· 비개발자 친화, $0~50/월
+│   ├── Lovable ········· 논코더 친화, $0~50/월
 │   └── Replit Agent ···· 올인원 배포, $0~95/월
 │
 ├── 자율 에이전트
-│   ├── Claude Cowork ··· 비개발자 업무, $20/월~
+│   ├── Claude Cowork ··· 논코더 업무, $20/월~
 │   └── Devin ··········· 자율 코딩, $20/월~
 │
 └── 오픈소스
@@ -256,7 +256,7 @@ quadrantChart
 <details>
 <summary><b>커뮤니티가 말하는 CLI 에이전트</b></summary>
 
-> *"Claude Code는 생각하는 작업에, Codex는 실행하는 작업에."* — r/ChatGPTCoding 500+ 개발자 설문
+> *"Claude Code는 생각하는 작업에, Codex는 실행하는 작업에."* — r/ChatGPTCoding 500+ 바이브코더 설문
 
 > *"$20 Plus 플랜으로 하루종일 코딩해도 한도에 걸린 적 없다."* — Reddit u/LaCaipirinha (31 upvotes)
 
@@ -370,7 +370,7 @@ timeline
 | | Claude Cowork | Devin |
 |---|---|---|
 | **사이트** | [claude.com](https://claude.com) | [devin.ai](https://devin.ai) |
-| **대상** | 비개발자 오피스 워커 | 소프트웨어 엔지니어 |
+| **대상** | 논코더 오피스 워커 | 소프트웨어 엔지니어 |
 | **환경** | 데스크톱 앱 | 클라우드 IDE |
 | **시작가** | $20/월 (Pro) | $20/월 (Core, ACU별 과금) |
 | **연동** | Drive, Gmail, Slack, DocuSign | GitHub, 자체 IDE |
@@ -462,7 +462,7 @@ xychart-beta
 
 ## 커뮤니티 반응 (비교 중심)
 
-> 실제 Reddit, Hacker News, 개발자 포럼에서 수집한 **서비스 간 직접 비교** 인용문.
+> 실제 Reddit, Hacker News, 바이브코더 포럼에서 수집한 **서비스 간 직접 비교** 인용문.
 
 ### Claude Code vs Codex CLI
 
@@ -513,7 +513,7 @@ xychart-beta
 > *"Windsurf는 50만 줄 모노레포에서 컨텍스트를 더 잘 잡고 에러가 적었다."*
 > — r/ChatGPTCoding `2026.02`
 
-> *"코드를 좀 아는 개발자라면 Cursor를 골라라. 기존 코드 위에서 반복 작업할 때 훨씬 낫다."*
+> *"코드를 좀 아는 바이브코더라면 Cursor를 골라라. 기존 코드 위에서 반복 작업할 때 훨씬 낫다."*
 > — r/webdev `2026.01`
 
 | 상황 | 승자 |
@@ -607,7 +607,7 @@ xychart-beta
 |---|---|
 | UI/컴포넌트 디자인 | **v0** |
 | 풀스택 속도, 프레임워크 유연성 | **Bolt.new** |
-| 비개발자, Supabase 통합 | **Lovable** |
+| 논코더, Supabase 통합 | **Lovable** |
 
 ---
 
@@ -646,7 +646,7 @@ xychart-beta
   <img src="https://img.shields.io/badge/powered_by-Claude_Code-f59e0b?style=flat-square" alt="Claude Code">
 </p>
 
-> 데이터 소스: `data/popularity.csv` | 점수 기준: 커뮤니티 언급량, 업데이트 빈도, 개발자 만족도, 시장 점유율
+> 데이터 소스: `data/popularity.csv` | 점수 기준: 커뮤니티 언급량, 업데이트 빈도, 바이브코더 만족도, 시장 점유율
 
 ---
 
@@ -663,13 +663,13 @@ xychart-beta
 | **Trae** | *"공짜 치곤 너무 좋은데... 대가가 뭐지?"* |
 | **Aider** | *"자유의 상징"* |
 | **Devin** | *"비싸지만 진짜 자율"* |
-| **Claude Cowork** | *"비개발자의 Claude Code"* |
+| **Claude Cowork** | *"논코더의 Claude Code"* |
 
 ### 실전 추천 스택
 
 ```
-시니어 개발자  = Cursor (일상) + Claude Code (아키텍처) = $40/월
-가성비 개발자  = Windsurf + Gemini CLI              = $20/월
+시니어 바이브코더  = Cursor (일상) + Claude Code (아키텍처) = $40/월
+가성비 바이브코더  = Windsurf + Gemini CLI              = $20/월
 오픈소스 매니아 = Aider + Ollama                     = $0/월
 스타트업 MVP   = Lovable or Bolt.new                = $25/월
 기업 보안팀    = Tabnine + Amazon Q                  = $58/user/월
@@ -683,7 +683,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 - **[PR 보내기](https://github.com/tykimos/ai-whatchelin/pulls)** — 가격 업데이트, 새 도구 추가, 오류 수정
 - **[Issue 열기](https://github.com/tykimos/ai-whatchelin/issues)** — "이거 틀렸어요", "이 도구 빠졌어요"
-- **Star 눌러주세요** — 더 많은 개발자에게 닿을 수 있게
+- **Star 눌러주세요** — 더 많은 바이브코더에게 닿을 수 있게
 
 ---
 
