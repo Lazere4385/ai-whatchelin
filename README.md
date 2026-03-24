@@ -632,6 +632,16 @@ xychart-beta
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
+  <img src="https://img.shields.io/badge/●_ChatGPT-98-4C78FF?style=flat-square" alt="ChatGPT">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-90-F5A623?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-87-E74C3C?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Claude_Code-85-2ECC71?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Windsurf-75-9B59B6?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Codex_CLI-72-1ABC9C?style=flat-square" alt="Codex CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-62↓-95A5A6?style=flat-square" alt="Antigravity">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/자동_업데이트-매일_05:00_KST-6366f1?style=flat-square&logo=github-actions&logoColor=white" alt="Auto Update">
   <img src="https://img.shields.io/badge/powered_by-Claude_Code-f59e0b?style=flat-square" alt="Claude Code">
 </p>
