@@ -13,8 +13,6 @@
   <a href="https://windsurf.com"><img src="https://img.shields.io/badge/Windsurf-06b6d4?style=for-the-badge&logo=codeium&logoColor=white" alt="Windsurf" height="28"></a>
   <a href="https://antigravity.google"><img src="https://img.shields.io/badge/Antigravity-34a853?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity" height="28"></a>
   <a href="https://github.com/features/copilot"><img src="https://img.shields.io/badge/Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" height="28"></a>
-</p>
-<p align="center">
   <a href="https://code.claude.com"><img src="https://img.shields.io/badge/Claude_Code-d97706?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" height="28"></a>
   <a href="https://developers.openai.com/codex/cli"><img src="https://img.shields.io/badge/Codex_CLI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="Codex CLI" height="28"></a>
   <a href="https://github.com/google-gemini/gemini-cli"><img src="https://img.shields.io/badge/Gemini_CLI-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini CLI" height="28"></a>
@@ -22,8 +20,6 @@
   <a href="https://kiro.dev"><img src="https://img.shields.io/badge/Kiro-ff9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Kiro" height="28"></a>
   <a href="https://www.trae.ai"><img src="https://img.shields.io/badge/Trae-0088cc?style=for-the-badge&logo=bytedance&logoColor=white" alt="Trae" height="28"></a>
   <a href="https://x.ai"><img src="https://img.shields.io/badge/Grok-000000?style=for-the-badge&logo=x&logoColor=white" alt="Grok" height="28"></a>
-</p>
-<p align="center">
   <a href="https://www.perplexity.ai"><img src="https://img.shields.io/badge/Perplexity-20808d?style=for-the-badge&logo=perplexity&logoColor=white" alt="Perplexity" height="28"></a>
   <a href="https://devin.ai"><img src="https://img.shields.io/badge/Devin-6366f1?style=for-the-badge" alt="Devin" height="28"></a>
   <a href="https://bolt.new"><img src="https://img.shields.io/badge/Bolt.new-000000?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Bolt.new" height="28"></a>
@@ -31,17 +27,13 @@
   <a href="https://lovable.dev"><img src="https://img.shields.io/badge/Lovable-ec4899?style=for-the-badge" alt="Lovable" height="28"></a>
   <a href="https://replit.com"><img src="https://img.shields.io/badge/Replit-f26207?style=for-the-badge&logo=replit&logoColor=white" alt="Replit" height="28"></a>
   <a href="https://www.tabnine.com"><img src="https://img.shields.io/badge/Tabnine-4a154b?style=for-the-badge" alt="Tabnine" height="28"></a>
-</p>
-
-<p align="center">
+  <br>
   <a href="#-코딩-도구-에이전트--ide"><img src="https://img.shields.io/badge/코딩_도구-7개-6366f1?style=for-the-badge" alt="코딩 도구"></a>
   <a href="#-채팅-ai"><img src="https://img.shields.io/badge/채팅_AI-6개-3b82f6?style=for-the-badge" alt="채팅 AI"></a>
   <a href="#-ai-ide"><img src="https://img.shields.io/badge/AI_IDE-6개-10b981?style=for-the-badge" alt="AI IDE"></a>
   <a href="#-앱-빌더"><img src="https://img.shields.io/badge/앱_빌더-4개-f59e0b?style=for-the-badge" alt="앱 빌더"></a>
   <a href="#-오픈소스"><img src="https://img.shields.io/badge/오픈소스-7개-ec4899?style=for-the-badge" alt="오픈소스"></a>
-</p>
-
-<p align="center">
+  <br>
   <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
   <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
