@@ -28,6 +28,7 @@ jobs:
           claude_args: "--model claude-opus-4-6"
           use_bedrock: false
           use_vertex: false
+          allowed_tools: "Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch"
           prompt: |
             당신은 "뭐쓸까?" 프로젝트의 자동 업데이트 에이전트입니다.
 
