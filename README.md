@@ -74,6 +74,43 @@
 
 > 코드를 짜고, 앱을 만들고, 자동화하는 바이브코더를 위한 AI 도구들.
 
+<p align="center">
+  <a href="https://code.claude.com"><img src="https://img.shields.io/badge/Claude_Code-d97706?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" height="24"></a>
+  <a href="https://cursor.com"><img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor" height="24"></a>
+  <a href="https://windsurf.com"><img src="https://img.shields.io/badge/Windsurf-06b6d4?style=for-the-badge&logo=codeium&logoColor=white" alt="Windsurf" height="24"></a>
+  <a href="https://antigravity.google"><img src="https://img.shields.io/badge/Antigravity-34a853?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity" height="24"></a>
+  <a href="https://github.com/features/copilot"><img src="https://img.shields.io/badge/Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="Copilot" height="24"></a>
+  <a href="https://developers.openai.com/codex/cli"><img src="https://img.shields.io/badge/Codex_CLI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="Codex CLI" height="24"></a>
+  <a href="https://github.com/google-gemini/gemini-cli"><img src="https://img.shields.io/badge/Gemini_CLI-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini CLI" height="24"></a>
+  <a href="https://aider.chat"><img src="https://img.shields.io/badge/Aider-10b981?style=for-the-badge&logo=git&logoColor=white" alt="Aider" height="24"></a>
+  <a href="https://kiro.dev"><img src="https://img.shields.io/badge/Kiro-ff9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="Kiro" height="24"></a>
+  <a href="https://www.trae.ai"><img src="https://img.shields.io/badge/Trae-0088cc?style=for-the-badge&logo=bytedance&logoColor=white" alt="Trae" height="24"></a>
+  <a href="https://bolt.new"><img src="https://img.shields.io/badge/Bolt.new-000000?style=for-the-badge&logo=stackblitz&logoColor=white" alt="Bolt.new" height="24"></a>
+  <a href="https://v0.app"><img src="https://img.shields.io/badge/v0.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="v0" height="24"></a>
+  <a href="https://lovable.dev"><img src="https://img.shields.io/badge/Lovable-ec4899?style=for-the-badge" alt="Lovable" height="24"></a>
+  <a href="https://replit.com"><img src="https://img.shields.io/badge/Replit-f26207?style=for-the-badge&logo=replit&logoColor=white" alt="Replit" height="24"></a>
+  <a href="https://www.tabnine.com"><img src="https://img.shields.io/badge/Tabnine-4a154b?style=for-the-badge" alt="Tabnine" height="24"></a>
+</p>
+
+### 바이브코더 진화 타임라인
+
+```mermaid
+timeline
+    title 바이브코더 도구 진화
+    2023 : GitHub Copilot 대중화
+         : Cursor 등장
+    2024 : Windsurf Codeium 출시
+         : Aider 성장
+    2025 H1 : Kiro AWS 프리뷰
+            : Trae ByteDance 출시
+    2025 H2 : Antigravity Google 출시
+            : Claude Code 에이전트 확립
+            : Codex CLI 오픈소스
+    2026 : Cursor $29.3B+
+         : Windsurf LogRocket 1위
+         : Antigravity 쿼터 논란
+```
+
 ### 바이브코더들이 실제로 쓰는 조합
 
 ```mermaid
@@ -237,22 +274,6 @@ quadrantChart
 ## AI IDE
 
 > 에디터 자체에 AI가 통합. 자동완성부터 멀티파일 에이전트까지.
-
-```mermaid
-timeline
-    title AI IDE 진화 타임라인
-    2023 : GitHub Copilot 대중화
-         : Cursor 등장
-    2024 : Windsurf Codeium 출시
-         : Cursor VS Code 포크 확립
-    2025 H1 : Kiro AWS 프리뷰
-            : Trae ByteDance 출시
-    2025 H2 : Antigravity Google 출시
-            : Google Windsurf 24억달러 인수
-    2026 : Cursor 29.3B 밸류에이션
-         : Windsurf LogRocket 1위
-         : Antigravity 쿼터 논란
-```
 
 | | Cursor | Windsurf | Antigravity | Kiro | Trae | GH Copilot |
 |---|---|---|---|---|---|---|
@@ -445,6 +466,49 @@ xychart-beta
 
 > 이미지와 비디오를 만드는 크리에이터를 위한 AI 도구들.
 
+<p align="center">
+  <a href="https://www.midjourney.com"><img src="https://img.shields.io/badge/Midjourney-000000?style=for-the-badge" alt="Midjourney" height="24"></a>
+  <a href="https://openai.com"><img src="https://img.shields.io/badge/GPT_Image-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="GPT Image" height="24"></a>
+  <a href="https://stability.ai"><img src="https://img.shields.io/badge/Stable_Diffusion-a855f7?style=for-the-badge" alt="SD" height="24"></a>
+  <a href="https://ideogram.ai"><img src="https://img.shields.io/badge/Ideogram-6366f1?style=for-the-badge" alt="Ideogram" height="24"></a>
+  <a href="https://bfl.ai"><img src="https://img.shields.io/badge/Flux-0ea5e9?style=for-the-badge" alt="Flux" height="24"></a>
+  <a href="https://firefly.adobe.com"><img src="https://img.shields.io/badge/Firefly-ff0000?style=for-the-badge&logo=adobe&logoColor=white" alt="Firefly" height="24"></a>
+  <a href="https://ai.google.dev"><img src="https://img.shields.io/badge/Imagen-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Imagen" height="24"></a>
+  <a href="https://openai.com/sora"><img src="https://img.shields.io/badge/Sora-412991?style=for-the-badge&logo=openai&logoColor=white" alt="Sora" height="24"></a>
+  <a href="https://runwayml.com"><img src="https://img.shields.io/badge/Runway-000000?style=for-the-badge" alt="Runway" height="24"></a>
+  <a href="https://klingai.com"><img src="https://img.shields.io/badge/Kling-ef4444?style=for-the-badge" alt="Kling" height="24"></a>
+  <a href="https://deepmind.google/technologies/veo"><img src="https://img.shields.io/badge/Veo-34a853?style=for-the-badge&logo=google&logoColor=white" alt="Veo" height="24"></a>
+  <a href="https://pika.art"><img src="https://img.shields.io/badge/Pika-f59e0b?style=for-the-badge" alt="Pika" height="24"></a>
+  <a href="https://lumalabs.ai"><img src="https://img.shields.io/badge/Luma-8b5cf6?style=for-the-badge" alt="Luma" height="24"></a>
+  <a href="https://hailuoai.video"><img src="https://img.shields.io/badge/HailuoAI-06b6d4?style=for-the-badge" alt="HailuoAI" height="24"></a>
+</p>
+
+### 크리에이터 진화 타임라인
+
+```mermaid
+timeline
+    title 크리에이터 도구 진화
+    2022 : Stable Diffusion 오픈소스 공개
+         : Midjourney V3~V4
+         : DALL-E 2
+    2023 : Midjourney V5
+         : Runway Gen-1/Gen-2
+         : Pika 출시
+    2024 : Sora 발표 (OpenAI)
+         : Midjourney V6
+         : Flux 1.0 출시
+         : Kling 1.0 출시
+    2025 : Sora 2 출시
+         : Runway Gen-4
+         : Kling 2.0 $240M ARR
+         : Veo 3 네이티브 오디오
+         : Luma Ray2~Ray3
+    2026 : Midjourney V7 V8알파
+         : GPT Image 1.5 LM Arena 1위
+         : Kling 3.0 4K 60FPS
+         : Runway Gen-4.5 벤치마크 1위
+```
+
 ### 나한테 맞는 크리에이터 도구는?
 
 ```mermaid
@@ -618,6 +682,41 @@ flowchart TD
 # 일반사무
 
 > 질문하고, 검색하고, 문서 정리하고, 업무를 자동화하는 오피스 워커를 위한 AI 도구들.
+
+<p align="center">
+  <a href="https://chatgpt.com"><img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" height="24"></a>
+  <a href="https://claude.com"><img src="https://img.shields.io/badge/Claude-d97706?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" height="24"></a>
+  <a href="https://gemini.google.com"><img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini" height="24"></a>
+  <a href="https://www.microsoft.com/en-us/microsoft-365-copilot"><img src="https://img.shields.io/badge/Copilot_MS-0078d4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Copilot MS" height="24"></a>
+  <a href="https://x.ai"><img src="https://img.shields.io/badge/Grok-000000?style=for-the-badge&logo=x&logoColor=white" alt="Grok" height="24"></a>
+  <a href="https://www.perplexity.ai"><img src="https://img.shields.io/badge/Perplexity-20808d?style=for-the-badge&logo=perplexity&logoColor=white" alt="Perplexity" height="24"></a>
+  <a href="https://claude.com"><img src="https://img.shields.io/badge/Cowork-d97706?style=for-the-badge&logo=anthropic&logoColor=white" alt="Cowork" height="24"></a>
+  <a href="https://devin.ai"><img src="https://img.shields.io/badge/Devin-6366f1?style=for-the-badge" alt="Devin" height="24"></a>
+</p>
+
+### 일반사무 진화 타임라인
+
+```mermaid
+timeline
+    title 일반사무 AI 도구 진화
+    2022 : ChatGPT 출시 (GPT-3.5)
+    2023 : GPT-4 출시
+         : Claude 2 출시
+         : Bard (Gemini 전신) 출시
+    2024 : Claude 3 Opus
+         : Gemini 1.5 Pro 1M 컨텍스트
+         : Perplexity Pro 검색+인용
+         : Grok 2 출시
+    2025 : GPT-5 출시
+         : Claude 4 시리즈
+         : Gemini 3 출시
+         : Copilot MS M365 통합
+         : Devin 2.0 $500에서 $20
+    2026 : GPT-5.4 + SuperApp 발표
+         : Claude Opus 4.6 + Cowork 출시
+         : Grok 4.20 2M 컨텍스트
+         : Perplexity Computer 에이전트
+```
 
 ### 나한테 맞는 일반사무 도구는?
 
@@ -833,8 +932,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ## Activity
 
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/tykimos/ai-whatchelin?style=for-the-badge&label=마지막_커밋" alt="Last Commit">
-  <img src="https://img.shields.io/github/commit-activity/w/tykimos/ai-whatchelin?style=for-the-badge&label=주간_커밋" alt="Commit Activity">
+  <img src="https://img.shields.io/github/last-commit/tykimos/ai-whatchelin?style=for-the-badge&label=Last%20Commit" alt="Last Commit">
+  <img src="https://img.shields.io/github/commit-activity/w/tykimos/ai-whatchelin?style=for-the-badge&label=Weekly%20Commits" alt="Commit Activity">
   <img src="https://img.shields.io/github/stars/tykimos/ai-whatchelin?style=for-the-badge&label=Stars" alt="Stars">
   <img src="https://img.shields.io/github/forks/tykimos/ai-whatchelin?style=for-the-badge&label=Forks" alt="Forks">
   <img src="https://img.shields.io/github/watchers/tykimos/ai-whatchelin?style=for-the-badge&label=Watchers" alt="Watchers">
