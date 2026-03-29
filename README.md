@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-03-28</sub>
+  <sub>Last updated: 2026-03-29</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.03.28-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.03.29-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -135,6 +135,8 @@ timeline
          : Windsurf Wave 13 Arena Mode + parallel agents
          : Copilot CLI GA — agentic terminal coding
          : Claude Mythos leak — new tier above Opus (Mar 27)
+         : Claude surpasses ChatGPT on App Store (Mar 28)
+         : Gemini 3 Deep Think live for Ultra (Mar 28)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -291,6 +293,9 @@ quadrantChart
 **Claude Mythos Leak** (2026.03.27):
 > *"Anthropic's internal data leak exposed 'Claude Mythos' — a new Capybara tier above Opus described as a 'step change' in capabilities. Cybersecurity stocks dropped 4–6% on fears the model could accelerate vulnerability exploitation."* — Fortune `2026.03.27`
 
+**Claude Surpasses ChatGPT on App Store** (2026.03.28):
+> *"Claude passed ChatGPT on the App Store free chart for the first time — consumer subscriber growth is skyrocketing."* — TechCrunch `2026.03.28`
+
 **2026 Power Stack Formula**:
 ```
 Daily coding    = Codex CLI (keystroke level)
@@ -442,6 +447,14 @@ xychart-beta
 
 > *"One complex prompt burns 50–70% of the 5-hour limit."* — r/ClaudeAI (388 upvotes) `2026.02`
 
+> *"Claude Code Auto Mode lets it autonomously decide permissions — a dual classifier checks each tool call for destructive actions before execution."* — TechCrunch `2026.03.24`
+
+**Claude Mythos Leak** (2026.03.27):
+> *"Anthropic's internal data leak exposed 'Claude Mythos' — a new Capybara tier above Opus described as a 'step change' in capabilities. Cybersecurity stocks dropped 4–6% on fears the model could accelerate vulnerability exploitation."* — Fortune `2026.03.27`
+
+**Claude Surpasses ChatGPT on App Store** (2026.03.28):
+> *"Claude passed ChatGPT on the App Store free chart for the first time — consumer subscriber growth is skyrocketing, partly fueled by Super Bowl ads mocking ChatGPT's decision to show ads."* — TechCrunch `2026.03.28`
+
 | Matchup | Winner (by situation) |
 |---|---|
 | **Claude Code vs Codex CLI** | follow plans/debug = Claude Code, no limits = Codex CLI |
@@ -483,24 +496,24 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 8 Days)"
-    x-axis ["03-21", "03-22", "03-23", "03-24", "03-25", "03-26", "03-27", "03-28"]
+    x-axis ["03-22", "03-23", "03-24", "03-25", "03-26", "03-27", "03-28", "03-29"]
     y-axis "Popularity Score" 50 --> 100
-    line "GH Copilot" [89, 90, 90, 90, 90, 89, 89, 89]
-    line "Cursor" [87, 87, 87, 87, 86, 87, 87, 87]
-    line "Claude Code" [85, 85, 85, 85, 86, 87, 87, 88]
+    line "GH Copilot" [90, 90, 90, 90, 89, 89, 89, 89]
+    line "Cursor" [87, 87, 87, 86, 87, 87, 87, 87]
+    line "Claude Code" [85, 85, 85, 86, 87, 87, 88, 89]
     line "Windsurf" [75, 75, 75, 75, 75, 75, 75, 75]
     line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72]
-    line "Antigravity" [65, 64, 63, 62, 61, 60, 59, 58]
+    line "Antigravity" [64, 63, 62, 61, 60, 59, 58, 57]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
+  <img src="https://img.shields.io/badge/●_Claude_Code-89↑-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_GH_Copilot-89-9B59B6?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Claude_Code-88↑-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-87-9B59B6?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_Windsurf-75-9B59B6?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-72-9B59B6?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-58↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Antigravity-57↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -997,6 +1010,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/03/28 | Claude **surpasses ChatGPT** on App Store free chart for first time; consumer subscriber growth "skyrocketing" | [techcrunch.com](https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/) |
+| 2026/03/27 | Anthropic **considering IPO** as soon as October 2026, could raise $60B+ | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-03-27/claude-ai-maker-anthropic-said-to-weigh-ipo-as-soon-as-october) |
 | 2026/03/27 | **Claude Mythos data leak** — new "Capybara" tier above Opus, step-change in capabilities, cybersecurity concerns | [fortune.com](https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/) |
 | 2026/03/25 | **5th Economic Index** (6-month users 10% higher success) | [anthropic.com](https://www.anthropic.com/research/the-economic-index-5) |
 | 2026/03/24 | Claude Code **Auto Mode** + **Computer Use** for Cowork + **Channels** (Discord/Telegram) | [techcrunch.com](https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/) |
@@ -1045,6 +1060,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/03/28 | **Gemini 3 Deep Think live** for Ultra subscribers + early API access for researchers | [blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/) |
 | 2026/03/27 | **Gemini "Switching Tools"** — import chat history & memories from ChatGPT/Claude | [blog.google](https://blog.google/products/gemini/) |
 | 2026/03/26 | **Gemini 3.1 Flash Live** (voice-first multimodal model, Search Live to 200+ countries) | [9to5google.com](https://9to5google.com/2026/03/26/gemini-3-1-flash-live/) |
 | 2026/03/17 | **Gemini 3 Flash** (new default model) | [blog.google](https://blog.google/products/gemini/gemini-3-flash/) |

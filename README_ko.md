@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-03-28</sub>
+  <sub>마지막 업데이트: 2026-03-29</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.03.28-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.03.29-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -135,6 +135,8 @@ timeline
          : Windsurf Wave 13 Arena Mode + 병렬 에이전트
          : Copilot CLI GA — 에이전틱 터미널 코딩
          : Claude Mythos 유출 — Opus 위 새 티어 (3/27)
+         : Claude 앱스토어에서 ChatGPT 첫 추월 (3/28)
+         : Gemini 3 Deep Think Ultra 정식 오픈 (3/28)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -285,6 +287,14 @@ quadrantChart
 > *"$20 Plus 플랜으로 하루종일 코딩해도 한도에 걸린 적 없다."* — Reddit u/LaCaipirinha (31 upvotes)
 
 > *"한 번 복잡한 프롬프트 날리면 5시간 한도의 50~70%가 날아간다."* — r/ChatGPTCoding (388 upvotes)
+
+> *"Claude Code Auto Mode가 권한을 자율 결정 — 이중 분류기가 각 도구 호출의 파괴적 동작을 실행 전에 검사한다."* — TechCrunch `2026.03.24`
+
+**Claude Mythos 유출** (2026.03.27):
+> *"Anthropic 내부 데이터 유출로 'Claude Mythos'가 공개됐다 — Opus 위의 새로운 Capybara 티어로 '역대 최강' 성능. 사이버보안주가 4~6% 급락했다."* — Fortune `2026.03.27`
+
+**Claude, 앱스토어에서 ChatGPT 추월** (2026.03.28):
+> *"Claude가 사상 처음 앱스토어 무료 차트에서 ChatGPT를 넘었다 — 유료 구독자 성장이 급등 중."* — TechCrunch `2026.03.28`
 
 **2026 파워 스택 공식**:
 ```
@@ -442,6 +452,9 @@ xychart-beta
 **Claude Mythos 유출** (2026.03.27):
 > *"Anthropic 내부 데이터 유출로 'Claude Mythos'가 공개됐다 — Opus 위의 새로운 Capybara 티어로 '역대 최강' 성능. 사이버보안주가 4~6% 급락했다."* — Fortune `2026.03.27`
 
+**Claude, 앱스토어에서 ChatGPT 추월** (2026.03.28):
+> *"Claude가 사상 처음 앱스토어 무료 차트에서 ChatGPT를 넘었다 — 유료 구독자 성장이 급등 중이며, ChatGPT 광고 삽입을 조롱하는 슈퍼볼 광고가 한몫했다."* — TechCrunch `2026.03.28`
+
 | 매치업 | 승자 (상황별) |
 |---|---|
 | **Claude Code vs Codex CLI** | 계획 따르기/디버깅 = Claude Code, 한도 없이 = Codex CLI |
@@ -483,24 +496,24 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 8일)"
-    x-axis ["03-21", "03-22", "03-23", "03-24", "03-25", "03-26", "03-27", "03-28"]
+    x-axis ["03-22", "03-23", "03-24", "03-25", "03-26", "03-27", "03-28", "03-29"]
     y-axis "인기 점수" 50 --> 100
-    line "GH Copilot" [89, 90, 90, 90, 90, 89, 89, 89]
-    line "Cursor" [87, 87, 87, 87, 86, 87, 87, 87]
-    line "Claude Code" [85, 85, 85, 85, 86, 87, 87, 88]
+    line "GH Copilot" [90, 90, 90, 90, 89, 89, 89, 89]
+    line "Cursor" [87, 87, 87, 86, 87, 87, 87, 87]
+    line "Claude Code" [85, 85, 85, 86, 87, 87, 88, 89]
     line "Windsurf" [75, 75, 75, 75, 75, 75, 75, 75]
     line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72]
-    line "Antigravity" [65, 64, 63, 62, 61, 60, 59, 58]
+    line "Antigravity" [64, 63, 62, 61, 60, 59, 58, 57]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
+  <img src="https://img.shields.io/badge/●_Claude_Code-89↑-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_GH_Copilot-89-9B59B6?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Claude_Code-88↑-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_Cursor-87-9B59B6?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_Windsurf-75-9B59B6?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-72-9B59B6?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-58↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Antigravity-57↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -997,6 +1010,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/03/28 | Claude **앱스토어 무료 차트에서 ChatGPT 첫 추월**; 유료 구독자 성장 "급등" | [techcrunch.com](https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/) |
+| 2026/03/27 | Anthropic **2026년 10월 IPO 검토**, $600억+ 조달 가능 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-03-27/claude-ai-maker-anthropic-said-to-weigh-ipo-as-soon-as-october) |
 | 2026/03/27 | **Claude Mythos 데이터 유출** — Opus 위 새 "Capybara" 티어, 역대 최강 성능, 사이버보안 우려 | [fortune.com](https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/) |
 | 2026/03/25 | **5차 경제 지표 보고서** (6개월 이상 사용자 성공률 10% 높음) | [anthropic.com](https://www.anthropic.com/research/the-economic-index-5) |
 | 2026/03/24 | Claude Code **Auto Mode** + Cowork **Computer Use** + **Channels** (Discord/Telegram) | [techcrunch.com](https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/) |
@@ -1045,6 +1060,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/03/28 | **Gemini 3 Deep Think 정식 오픈** Ultra 구독자 대상 + 연구자 API 조기 접근 | [blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/) |
 | 2026/03/27 | **Gemini "전환 도구"** — ChatGPT/Claude에서 대화 기록·메모리 가져오기 | [blog.google](https://blog.google/products/gemini/) |
 | 2026/03/26 | **Gemini 3.1 Flash Live** (음성 우선 멀티모달 모델, Search Live 200+개국 확대) | [9to5google.com](https://9to5google.com/2026/03/26/gemini-3-1-flash-live/) |
 | 2026/03/17 | **Gemini 3 Flash** (새 기본 모델) | [blog.google](https://blog.google/products/gemini/gemini-3-flash/) |
