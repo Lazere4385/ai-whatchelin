@@ -495,15 +495,15 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 <!-- POPULARITY_CHART_START -->
 ```mermaid
 xychart-beta
-    title "Vibe Coder Tool Daily Popularity (Last 8 Days)"
-    x-axis ["03-22", "03-23", "03-24", "03-25", "03-26", "03-27", "03-28", "03-29"]
+    title "Vibe Coder Tool Daily Popularity (Last 12 Days)"
+    x-axis ["03-18", "03-19", "03-20", "03-21", "03-22", "03-23", "03-24", "03-25", "03-26", "03-27", "03-28", "03-29"]
     y-axis "Popularity Score" 50 --> 100
-    line "GH Copilot" [90, 90, 90, 90, 89, 89, 89, 89]
-    line "Cursor" [87, 87, 87, 86, 87, 87, 87, 87]
-    line "Claude Code" [85, 85, 85, 86, 87, 87, 88, 89]
-    line "Windsurf" [75, 75, 75, 75, 75, 75, 75, 75]
-    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72]
-    line "Antigravity" [64, 63, 62, 61, 60, 59, 58, 57]
+    line "GH Copilot" [90, 90, 90, 89, 90, 90, 90, 90, 89, 89, 89, 89]
+    line "Cursor" [88, 87, 87, 87, 87, 87, 87, 86, 87, 87, 87, 87]
+    line "Claude Code" [83, 84, 84, 85, 85, 85, 85, 86, 87, 87, 88, 89]
+    line "Windsurf" [73, 74, 74, 75, 75, 75, 75, 75, 75, 75, 75, 75]
+    line "Codex CLI" [70, 71, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72]
+    line "Antigravity" [68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57]
 ```
 <!-- POPULARITY_CHART_END -->
 
@@ -566,6 +566,7 @@ timeline
          : GPT Image 1.5 LM Arena #1
          : Kling 3.0 4K 60FPS
          : Runway Gen-4.5 benchmark #1
+         : Sora app + API discontinued (Mar 27)
 ```
 
 ### Which Creator Tool Is Right for Me?
@@ -775,6 +776,8 @@ timeline
          : Claude Opus 4.6 + Cowork launches
          : Grok 4.20 2M context
          : Perplexity Computer agent
+         : Pentagon blocked from punishing Anthropic (Mar 28)
+         : Sora standalone app + API discontinued (Mar 27)
 ```
 
 ### Which General Office Tool Is Right for Me?
@@ -916,6 +919,12 @@ General Office
 | **ChatGPT vs Claude (coding)** | code quality = Claude (78%), general use = ChatGPT |
 | **Devin vs Claude Code** | autonomous delegation = Devin, interactive debug = Claude Code |
 
+**Pentagon vs Anthropic Ruling** (2026.03.28):
+> *"Federal judge blocked the Pentagon's attempt to designate Anthropic a 'supply chain risk' after Anthropic refused to allow Claude for autonomous weapons systems."* — Reuters `2026.03.28`
+
+**Sora Standalone Shut Down** (2026.03.27):
+> *"OpenAI shut down the Sora standalone app and API, citing unsustainable inference costs. Video generation remains inside ChatGPT for Plus/Pro subscribers only."* — The Verge `2026.03.27`
+
 ### General Office One-Liner Reviews
 
 | Tool | In a word |
@@ -950,7 +959,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-03-28)
+### Fact Check Log (2026-03-29)
 
 All pricing information has been directly verified from each service's official website.
 
