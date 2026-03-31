@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-03-29</sub>
+  <sub>마지막 업데이트: 2026-03-31</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.03.29-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.03.31-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -137,6 +137,11 @@ timeline
          : Claude Mythos 유출 — Opus 위 새 티어 (3/27)
          : Claude 앱스토어에서 ChatGPT 첫 추월 (3/28)
          : Gemini 3 Deep Think Ultra 정식 오픈 (3/28)
+         : Claude Code v2.1.76 무깜빡 렌더링 + 서브에이전트 이름 (3/31)
+         : Copilot PR "광고" 버그 — MS 확인 (3/31)
+         : Gemini CLI v0.35.2 안정판 + 샌드박스 + Vim (3/26)
+         : GitHub Copilot 데이터 학습 옵트아웃 논란 (3/30)
+         : Midjourney V1 비디오 모델 출시
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -295,6 +300,15 @@ quadrantChart
 
 **Claude, 앱스토어에서 ChatGPT 추월** (2026.03.28):
 > *"Claude가 사상 처음 앱스토어 무료 차트에서 ChatGPT를 넘었다 — 유료 구독자 성장이 급등 중."* — TechCrunch `2026.03.28`
+
+**Claude Code v2.1.76** (2026.03.31):
+> *"무깜빡 alt-screen 렌더링, @ 멘션에 이름있는 서브에이전트, PowerShell 지원 확대, 장시간 세션 안정성 수정."* — code.claude.com/changelog `2026.03.31`
+
+**Copilot PR "광고" 버그** (2026.03.31):
+> *"수천 개의 수동 PR에 Copilot 제품 팁이 나타남. MS는 버그라고 확인하고 기능을 제거했다."* — windowslatest.com `2026.03.31`
+
+**GitHub Copilot 데이터 학습** (2026.03.30):
+> *"4월 24일부터 모든 Copilot Free/Pro/Pro+ 상호작용 데이터가 AI 학습에 사용된다. 옵트아웃 필요. Business/Enterprise 제외."* — AfterDawn `2026.03.30`
 
 **2026 파워 스택 공식**:
 ```
@@ -496,24 +510,24 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 12일)"
-    x-axis ["03-18", "03-19", "03-20", "03-21", "03-22", "03-23", "03-24", "03-25", "03-26", "03-27", "03-28", "03-29"]
+    x-axis ["03-20", "03-21", "03-22", "03-23", "03-24", "03-25", "03-26", "03-27", "03-28", "03-29", "03-30", "03-31"]
     y-axis "인기 점수" 50 --> 100
-    line "GH Copilot" [90, 90, 90, 89, 90, 90, 90, 90, 89, 89, 89, 89]
-    line "Cursor" [88, 87, 87, 87, 87, 87, 87, 86, 87, 87, 87, 87]
-    line "Claude Code" [83, 84, 84, 85, 85, 85, 85, 86, 87, 87, 88, 89]
-    line "Windsurf" [73, 74, 74, 75, 75, 75, 75, 75, 75, 75, 75, 75]
-    line "Codex CLI" [70, 71, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72]
-    line "Antigravity" [68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57]
+    line "GH Copilot" [90, 89, 90, 90, 90, 90, 89, 89, 89, 89, 89, 89]
+    line "Cursor" [87, 87, 87, 87, 87, 86, 87, 87, 87, 87, 87, 88]
+    line "Claude Code" [84, 85, 85, 85, 85, 86, 87, 87, 88, 89, 90, 90]
+    line "Windsurf" [74, 75, 75, 75, 75, 75, 75, 75, 75, 75, 75, 75]
+    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72]
+    line "Antigravity" [66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_Claude_Code-89↑-27AE60?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_Claude_Code-90↑-27AE60?style=flat-square" alt="Claude Code">
   <img src="https://img.shields.io/badge/●_GH_Copilot-89-9B59B6?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Cursor-87-9B59B6?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Cursor-88↑-27AE60?style=flat-square" alt="Cursor">
   <img src="https://img.shields.io/badge/●_Windsurf-75-9B59B6?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-72-9B59B6?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-57↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Antigravity-55↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -959,7 +973,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-03-29)
+### 팩트 체크 로그 (2026-03-31)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
@@ -1019,6 +1033,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/03/31 | Claude Code **v2.1.76** — 무깜빡 alt-screen 렌더링, 이름있는 서브에이전트, PowerShell 지원, 장시간 세션 안정성 수정 | [code.claude.com](https://code.claude.com/docs/en/changelog) |
+| 2026/03/29 | Claude Code Cowork Dispatch 메시지 전달 버그 수정 | [code.claude.com](https://code.claude.com/docs/en/changelog) |
+| 2026/03/28 | Claude Code 신뢰성, 성능, 토큰 효율성 개선 — 세션 헤더, 스마트 파일/스킬 처리 | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/03/28 | Claude **앱스토어 무료 차트에서 ChatGPT 첫 추월**; 유료 구독자 성장 "급등" | [techcrunch.com](https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/) |
 | 2026/03/27 | Anthropic **2026년 10월 IPO 검토**, $600억+ 조달 가능 | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-03-27/claude-ai-maker-anthropic-said-to-weigh-ipo-as-soon-as-october) |
 | 2026/03/27 | **Claude Mythos 데이터 유출** — Opus 위 새 "Capybara" 티어, 역대 최강 성능, 사이버보안 우려 | [fortune.com](https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/) |
@@ -1069,8 +1086,11 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/03/31 | `gemini-2.5-flash-lite-preview-09-2025` 모델 종료 | [ai.google.dev](https://ai.google.dev/gemini-api/docs/changelog) |
 | 2026/03/28 | **Gemini 3 Deep Think 정식 오픈** Ultra 구독자 대상 + 연구자 API 조기 접근 | [blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/) |
 | 2026/03/27 | **Gemini "전환 도구"** — ChatGPT/Claude에서 대화 기록·메모리 가져오기 | [blog.google](https://blog.google/products/gemini/) |
+| 2026/03/27 | **Gemini CLI v0.36.0-preview.5** — 서브에이전트 로컬 실행, macOS/Windows 샌드박싱, 게이트웨이 인증 | [geminicli.com](https://geminicli.com/docs/changelogs/preview/) |
+| 2026/03/26 | **Gemini CLI v0.35.2** 안정판 — 커스텀 키바인딩, Vim 모드, Linux 샌드박싱, 서브에이전트 기본 활성화 | [geminicli.com](https://geminicli.com/docs/changelogs/latest/) |
 | 2026/03/26 | **Gemini 3.1 Flash Live** (음성 우선 멀티모달 모델, Search Live 200+개국 확대) | [9to5google.com](https://9to5google.com/2026/03/26/gemini-3-1-flash-live/) |
 | 2026/03/17 | **Gemini 3 Flash** (새 기본 모델) | [blog.google](https://blog.google/products/gemini/gemini-3-flash/) |
 | 2026/03/11 | Gemini CLI Plan Mode GA + **Antigravity 쿼터 논란** | [developers.googleblog.com](https://developers.googleblog.com/plan-mode-now-available-in-gemini-cli/) |
@@ -1086,6 +1106,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/03/31 | **Copilot PR "광고" 버그** — 수동 PR에 Copilot 팁 표시, MS가 버그 확인 후 기능 제거 | [windowslatest.com](https://www.windowslatest.com/2026/03/31/microsoft-says-copilot-ad-in-github-pull-request-was-a-bug-not-an-advertisement/) |
+| 2026/03/30 | GitHub Copilot **데이터 학습 논란** — 4/24부터 Free/Pro/Pro+ 데이터 AI 학습에 활용, 옵트아웃 필요 | [afterdawn.com](https://www.afterdawn.com/news/article.cfm/2026/03/30/github-copilot-to-train-its-ai-with-users-prompts-code) |
+| 2026/03/26 | **Gemini 3 Pro 지원 중단** — 모든 Copilot 환경에서 | [github.blog](https://github.blog/changelog/2026-03-26-gemini-3-pro-deprecated/) |
 | 2026/03/25 | **Copilot 데이터 학습 정책** (4/24까지 옵트아웃) + Copilot for Jira 기능 강화 | [github.blog](https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/) |
 | 2026/03/18 | GPT-5.3-Codex LTS (Business/Enterprise 12개월 장기 지원) | [github.blog](https://github.blog/changelog/2026-03-18-gpt-5-3-codex-long-term-support-in-github-copilot/) |
 | 2026/03/11 | GitHub Copilot JetBrains: 커스텀 에이전트, 서브에이전트, Plan Agent GA | [github.blog](https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides/) |
@@ -1113,6 +1136,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/03/~ | **V1 비디오 모델** — 최초 AI 비디오 모델, 이미지→비디오 5-20초 클립, 경쟁사 대비 25배 저렴 | [techradar.com](https://www.techradar.com/computing/artificial-intelligence/midjourney-just-dropped-its-first-ai-video-model-and-sora-and-veo-3-should-be-worried) |
 | 2026/03/17 | **V8 Alpha** (5배 빠름, 2K 네이티브, 텍스트 렌더링) | [updates.midjourney.com](https://updates.midjourney.com/v8-alpha/) |
 | 2026/01/09 | Niji 7 (애니메 모델) | [updates.midjourney.com](https://updates.midjourney.com/niji-v7/) |
 
@@ -1141,7 +1165,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.03.25-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.03.31-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>
