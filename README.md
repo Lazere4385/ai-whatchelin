@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-03-31</sub>
+  <sub>Last updated: 2026-04-07</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.03.31-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.04.07-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -142,6 +142,9 @@ timeline
          : Gemini CLI v0.35.2 stable + sandbox + Vim mode (Mar 26)
          : GitHub Copilot data training opt-out backlash (Mar 30)
          : Midjourney V1 video model launched
+         : Gemini CLI v0.36.0 stable — multi-registry, git worktrees (Apr 1)
+         : Claude Code v2.1.92 — Bedrock wizard, /cost breakdown (Apr 4)
+         : Codex CLI v0.118.0 — legacy model removal (Apr 6)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -301,11 +304,11 @@ quadrantChart
 **Claude Surpasses ChatGPT on App Store** (2026.03.28):
 > *"Claude passed ChatGPT on the App Store free chart for the first time — consumer subscriber growth is skyrocketing."* — TechCrunch `2026.03.28`
 
-**Claude Code v2.1.76** (2026.03.31):
-> *"Flicker-free alt-screen rendering, named subagents in @ mentions, broader permission and PowerShell support, plus long-session stability fixes."* — code.claude.com/changelog `2026.03.31`
+**Claude Code v2.1.76** (2026.04.07):
+> *"Flicker-free alt-screen rendering, named subagents in @ mentions, broader permission and PowerShell support, plus long-session stability fixes."* — code.claude.com/changelog `2026.04.07`
 
-**Copilot PR "Ad" Bug** (2026.03.31):
-> *"Thousands of human-created PRs on GitHub showed Copilot product tips. Microsoft confirmed it was a bug, not an advertisement, and removed the feature."* — windowslatest.com `2026.03.31`
+**Copilot PR "Ad" Bug** (2026.04.07):
+> *"Thousands of human-created PRs on GitHub showed Copilot product tips. Microsoft confirmed it was a bug, not an advertisement, and removed the feature."* — windowslatest.com `2026.04.07`
 
 **GitHub Copilot Data Training** (2026.03.30):
 > *"Starting April 24, all Copilot Free/Pro/Pro+ interaction data will be used for AI training unless you opt out. Business/Enterprise accounts excluded."* — AfterDawn `2026.03.30`
@@ -363,8 +366,11 @@ Free            = Gemini CLI + Aider
 **Midjourney V1 Video Model** (2026.03):
 > *"Midjourney launched its first AI video model — image-to-video at 5-second clips, extendable to 20 seconds. 25x cheaper than most AI video services."* — TechRadar `2026.03`
 
-**Gemini CLI v0.35.2** (2026.03.26):
-> *"Custom keybindings, Vim mode, Linux-native sandboxing via bubblewrap/seccomp, subagents enabled by default. Free tier limited to Flash models only starting March 25."* — geminicli.com `2026.03.26`
+**Gemini CLI v0.36.0** (2026.04.01):
+> *"Multi-registry architecture for subagents, git worktree support for parallel sessions, enhanced macOS/Windows sandboxing, and non-interactive Plan Mode. Big step forward for free CLI users."* — geminicli.com `2026.04.01`
+
+**Claude Code v2.1.92** (2026.04.04):
+> *"Interactive Bedrock setup wizard, per-model cost breakdown in /cost, 60% faster Write tool on large files. Quality-of-life release."* — code.claude.com `2026.04.04`
 
 **Trae Privacy Warning**:
 > *"Sending data to 5 ByteDance domains every 30 seconds. Continues even with telemetry disabled."* — Unit 221B security analysis
@@ -475,8 +481,8 @@ xychart-beta
 **Claude Surpasses ChatGPT on App Store** (2026.03.28):
 > *"Claude passed ChatGPT on the App Store free chart for the first time — consumer subscriber growth is skyrocketing, partly fueled by Super Bowl ads mocking ChatGPT's decision to show ads."* — TechCrunch `2026.03.28`
 
-**Claude Code v2.1.76** (2026.03.31):
-> *"Named subagents, flicker-free rendering, PowerShell improvements, long-session stability fixes. Claude Code jumped ~13 version numbers in March alone."* — code.claude.com/changelog `2026.03.31`
+**Claude Code v2.1.76** (2026.04.07):
+> *"Named subagents, flicker-free rendering, PowerShell improvements, long-session stability fixes. Claude Code jumped ~13 version numbers in March alone."* — code.claude.com/changelog `2026.04.07`
 
 **Cursor Composer 2 / Kimi K2.5** (2026.03.19):
 > *"Composer 2 launched — frontier-level coding at $0.50-$1.50/M input tokens. Cursor crossing $2B ARR and in $50B valuation talks."* — cursor.com `2026.03.19`
@@ -521,25 +527,27 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 <!-- POPULARITY_CHART_START -->
 ```mermaid
 xychart-beta
-    title "Vibe Coder Tool Daily Popularity (Last 12 Days)"
-    x-axis ["03-20", "03-21", "03-22", "03-23", "03-24", "03-25", "03-26", "03-27", "03-28", "03-29", "03-30", "03-31"]
+    title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
+    x-axis ["03-25", "03-26", "03-27", "03-28", "03-29", "03-30", "03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07"]
     y-axis "Popularity Score" 50 --> 100
-    line "GH Copilot" [90, 89, 90, 90, 90, 90, 89, 89, 89, 89, 89, 89]
-    line "Cursor" [87, 87, 87, 87, 87, 86, 87, 87, 87, 87, 87, 88]
-    line "Claude Code" [84, 85, 85, 85, 85, 86, 87, 87, 88, 89, 90, 90]
-    line "Windsurf" [74, 75, 75, 75, 75, 75, 75, 75, 75, 75, 75, 75]
-    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72]
-    line "Antigravity" [66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55]
+    line "Claude Code" [86, 87, 87, 88, 89, 90, 90, 91, 91, 91, 92, 92, 92, 92]
+    line "GH Copilot" [90, 89, 89, 89, 89, 89, 89, 89, 89, 89, 88, 88, 88, 88]
+    line "Cursor" [86, 87, 87, 87, 87, 87, 88, 88, 88, 88, 88, 88, 88, 88]
+    line "Windsurf" [75, 75, 75, 75, 75, 75, 75, 75, 75, 74, 74, 74, 74, 74]
+    line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72]
+    line "Gemini CLI" [61, 61, 61, 62, 62, 62, 63, 64, 64, 64, 64, 64, 64, 64]
+    line "Antigravity" [61, 60, 59, 58, 57, 56, 55, 54, 54, 53, 53, 53, 52, 52]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/●_Claude_Code-90↑-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-89-9B59B6?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Cursor-88↑-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_Windsurf-75-9B59B6?style=flat-square" alt="Windsurf">
+  <img src="https://img.shields.io/badge/●_Claude_Code-92↑-27AE60?style=flat-square" alt="Claude Code">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-88↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-88-9B59B6?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Windsurf-74↓-E74C3C?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-72-9B59B6?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-55↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-64↑-27AE60?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-52↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -995,7 +1003,7 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-03-31)
+### Fact Check Log (2026-04-07)
 
 All pricing information has been directly verified from each service's official website.
 
@@ -1003,12 +1011,12 @@ All pricing information has been directly verified from each service's official 
 |---|---|---|
 | ChatGPT | chatgpt.com/pricing | Go plan $8/mo newly added |
 | Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo) |
-| Claude Code | code.claude.com/changelog | v2.1.76 (Mar 31) — named subagents, flicker-free rendering |
+| Claude Code | code.claude.com/changelog | v2.1.92 (Apr 4) — Bedrock wizard, /cost breakdown, faster Write |
 | Cursor | cursor.com/pricing | Pro+ $60/mo confirmed, Composer 2 launched, $50B talks |
 | Windsurf | windsurf.com/pricing | Max $200/mo confirmed, credits → daily quotas |
 | Kiro | kiro.dev/pricing | 500 bonus credits (30 days) |
-| GitHub Copilot | github.com/features/copilot/plans | Data training policy Apr 24, "ad" bug fixed |
-| Gemini CLI | geminicli.com | v0.35.2 stable (Mar 26), free tier → Flash only |
+| GitHub Copilot | github.com/features/copilot/plans | Data training opt-out deadline Apr 24, "ad" bug fixed |
+| Gemini CLI | geminicli.com | v0.36.0 stable (Apr 1), multi-registry, git worktrees |
 | Devin | devin.ai/pricing | ACU-based billing confirmed |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
 | v0 | v0.app/pricing | domain changed v0.dev → v0.app |
@@ -1058,6 +1066,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/04/04 | Claude Code **v2.1.92** — interactive Bedrock setup wizard, per-model /cost breakdown, 60% faster Write tool on large files | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/03/31 | Claude Code **v2.1.76** — flicker-free alt-screen rendering, named subagents in @ mentions, PowerShell support, long-session stability fixes | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/03/29 | Claude Code fixes messages in Cowork Dispatch not getting delivered | [code.claude.com](https://code.claude.com/docs/en/changelog) |
 | 2026/03/28 | Claude Code improves reliability, performance, token efficiency with session headers, smarter file/skill handling | [code.claude.com](https://code.claude.com/docs/en/changelog) |
@@ -1093,6 +1102,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/04/06 | **Codex CLI v0.118.0** — removed gpt-5.1-codex, gpt-5.1-codex-mini, gpt-5.1-codex-max model support | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/03/26 | Legacy deep research mode removed | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/03/18 | **GPT-5.3-Codex LTS** (12-month support for Enterprise) | [github.blog](https://github.blog/changelog/2026-03-18-gpt-5-3-codex-long-term-support-in-github-copilot/) |
 | 2026/03/24 | **Sora shutdown** (app + API discontinued) | [axios.com](https://www.axios.com/2026/03/24/openai-discontinue-sora-video-app) |
@@ -1111,6 +1121,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/04/01 | **Gemini CLI v0.36.0** stable — multi-registry architecture, git worktree support, enhanced macOS/Windows sandboxing, non-interactive Plan Mode | [geminicli.com](https://geminicli.com/docs/changelogs/latest/) |
 | 2026/03/31 | `gemini-2.5-flash-lite-preview-09-2025` model shut down | [ai.google.dev](https://ai.google.dev/gemini-api/docs/changelog) |
 | 2026/03/28 | **Gemini 3 Deep Think live** for Ultra subscribers + early API access for researchers | [blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/) |
 | 2026/03/27 | **Gemini "Switching Tools"** — import chat history & memories from ChatGPT/Claude | [blog.google](https://blog.google/products/gemini/) |
@@ -1190,7 +1201,7 @@ All pricing information has been directly verified from each service's official 
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.03.31-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.04.07-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>
