@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-04-07</sub>
+  <sub>마지막 업데이트: 2026-04-10</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.04.07-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.04.10-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -143,8 +143,12 @@ timeline
          : GitHub Copilot 데이터 학습 옵트아웃 논란 (3/30)
          : Midjourney V1 비디오 모델 출시
          : Gemini CLI v0.36.0 안정판 — 멀티레지스트리, git worktree (4/1)
+         : Cursor 3 — Agents Window, Design Mode, /worktree (4/2)
+         : Copilot SDK 퍼블릭 프리뷰 (4/2)
          : Claude Code v2.1.92 — Bedrock 마법사, /cost 상세 (4/4)
          : Codex CLI v0.118.0 — 레거시 모델 제거 (4/6)
+         : Gemini CLI v0.37.0 — 동적 샌드박스, Chapters (4/8)
+         : Copilot Autopilot 프리뷰 + CLI v1.0.22 (4/9)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -369,6 +373,18 @@ quadrantChart
 **Claude Code v2.1.92** (2026.04.04):
 > *"대화형 Bedrock 설정 마법사, /cost에서 모델별 비용 상세 분석, 대용량 파일에서 Write 도구 60% 빨라짐. QoL 릴리스."* — code.claude.com `2026.04.04`
 
+**Cursor 3 출시** (2026.04.02):
+> *"Cursor 3에서 여러 에이전트를 레포와 환경에 걸쳐 병렬 실행할 수 있다. Design Mode로 브라우저에서 직접 UI 요소에 주석을 달 수 있다. /best-of-n은 여러 모델에서 동일 작업을 실행하고 결과를 비교한다."* — cursor.com `2026.04.02`
+
+**Gemini CLI v0.37.0** (2026.04.08):
+> *"동적 샌드박스 확장, 도구 사용과 의도별로 에이전트 상호작용을 그룹화하는 'Chapters', 영속 브라우저 세션 관리. 무료 CLI가 계속 격차를 좁히고 있다."* — geminicli.com `2026.04.08`
+
+**Copilot Autopilot 프리뷰** (2026.04.09):
+> *"Autopilot이 자체적으로 행동을 승인하고, 에러 시 자동 재시도하며, 작업 완료까지 자율적으로 동작한다. 수동 승인 불필요."* — GitHub Blog `2026.04.09`
+
+**Copilot SDK 퍼블릭 프리뷰** (2026.04.02):
+> *"Copilot SDK로 Copilot의 에이전틱 기능을 자신의 앱과 워크플로에 직접 임베드할 수 있다."* — GitHub Blog `2026.04.02`
+
 **Trae 프라이버시 경고**:
 > *"30초마다 ByteDance 도메인 5곳에 데이터 전송. 텔레메트리 끄기 설정해도 계속 전송."* — Unit 221B 보안 분석
 
@@ -519,26 +535,26 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["03-25", "03-26", "03-27", "03-28", "03-29", "03-30", "03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07"]
+    x-axis ["03-28", "03-29", "03-30", "03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10"]
     y-axis "인기 점수" 50 --> 100
-    line "Claude Code" [86, 87, 87, 88, 89, 90, 90, 91, 91, 91, 92, 92, 92, 92]
-    line "GH Copilot" [90, 89, 89, 89, 89, 89, 89, 89, 89, 89, 88, 88, 88, 88]
-    line "Cursor" [86, 87, 87, 87, 87, 87, 88, 88, 88, 88, 88, 88, 88, 88]
-    line "Windsurf" [75, 75, 75, 75, 75, 75, 75, 75, 75, 74, 74, 74, 74, 74]
+    line "Claude Code" [88, 89, 90, 90, 91, 91, 91, 92, 92, 92, 92, 92, 92, 92]
+    line "GH Copilot" [89, 89, 89, 89, 89, 89, 89, 88, 88, 88, 88, 88, 87, 87]
+    line "Cursor" [87, 87, 87, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89]
+    line "Windsurf" [75, 75, 75, 75, 75, 75, 74, 74, 74, 74, 74, 74, 74, 74]
     line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72]
-    line "Gemini CLI" [61, 61, 61, 62, 62, 62, 63, 64, 64, 64, 64, 64, 64, 64]
-    line "Antigravity" [61, 60, 59, 58, 57, 56, 55, 54, 54, 53, 53, 53, 52, 52]
+    line "Gemini CLI" [62, 62, 62, 63, 64, 64, 64, 64, 64, 64, 64, 65, 65, 65]
+    line "Antigravity" [58, 57, 56, 55, 54, 54, 53, 53, 53, 52, 52, 52, 52, 51]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-92↑-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-88↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Cursor-88-9B59B6?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Cursor-89↑-27AE60?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-87↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-74↓-E74C3C?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-72-9B59B6?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-64↑-27AE60?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-52↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-65↑-27AE60?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-51↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -984,21 +1000,21 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 ---
 
 
-### 팩트 체크 로그 (2026-04-07)
+### 팩트 체크 로그 (2026-04-10)
 
 모든 가격 정보는 각 서비스의 공식 웹사이트에서 직접 검증했습니다.
 
 | 도구 | 검증 URL | 주요 변경사항 |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | Go 플랜 $8/월 신규 추가 |
-| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월) |
+| ChatGPT | chatgpt.com/pricing | 파일 라이브러리, CarPlay 통합, GPT-5.4 Thinking 플래그십 |
+| Claude | claude.com/pricing | Max 플랜 확인 ($100~$200/월), 서드파티 도구 제한 |
 | Claude Code | code.claude.com/changelog | v2.1.92 (4/4) — Bedrock 마법사, /cost 상세, Write 속도 향상 |
-| Cursor | cursor.com/pricing | Pro+ $60/월 확인, Composer 2 출시, $50B 협상 |
-| Windsurf | windsurf.com/pricing | Max $200/월 확인, 크레딧 → 일일 쿼터 전환 |
-| Kiro | kiro.dev/pricing | 500 보너스 크레딧 (30일) |
-| GitHub Copilot | github.com/features/copilot/plans | 데이터 학습 옵트아웃 기한 4/24, "광고" 버그 수정 |
-| Gemini CLI | geminicli.com | v0.36.0 안정판 (4/1), 멀티레지스트리, git worktree |
-| Devin | devin.ai/pricing | ACU 기반 과금 확인 |
+| Cursor | cursor.com/pricing | **Cursor 3** 출시 (4/2), Agents Window, Design Mode |
+| Windsurf | windsurf.com/pricing | Max $200/월 확인, 크레딧 → 일일 쿼터 전환, Lifeguard 베타 |
+| Kiro | kiro.dev/pricing | Enterprise SSO (Okta/Entra ID), 웹 도구, 서브에이전트 |
+| GitHub Copilot | github.com/features/copilot/plans | Autopilot 프리뷰, Copilot SDK, 데이터 학습 옵트아웃 4/24 |
+| Gemini CLI | geminicli.com | v0.37.0 안정판 (4/8), 동적 샌드박스, Chapters |
+| Devin | devin.ai/pricing | ACU 기반 과금, v3 API, Focus Mode, 데스크톱 테스팅 |
 | Bolt | bolt.new/pricing | 토큰 롤오버 2025.07부터 |
 | v0 | v0.app/pricing | v0.dev -> v0.app 도메인 변경 |
 | Lovable | lovable.dev/pricing | 학생 50% 할인, Q1 Cloud $25 포함 |
@@ -1082,6 +1098,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/04/~ | ChatGPT **파일 라이브러리** — 업로드/생성 파일 자동 저장, 채팅 간 재사용 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/04/~ | ChatGPT **CarPlay** 통합 — iOS 26.4+ 핸즈프리 접근 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/04/~ | **GPT-5.3-Codex** 업그레이드 — 25% 빠르게, 추론 강화, 실시간 진행 상황 업데이트 | [openai.com](https://openai.com/index/introducing-upgrades-to-codex/) |
 | 2026/04/06 | **Codex CLI v0.118.0** — gpt-5.1-codex, gpt-5.1-codex-mini, gpt-5.1-codex-max 모델 지원 제거 | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/03/26 | 레거시 딥 리서치 모드 제거 | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/03/18 | **GPT-5.3-Codex LTS** (Enterprise 12개월 장기 지원) | [github.blog](https://github.blog/changelog/2026-03-18-gpt-5-3-codex-long-term-support-in-github-copilot/) |
@@ -1101,6 +1120,8 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/04/08 | **Gemini CLI v0.37.0** 안정판 — 동적 샌드박스 확장, "Chapters" 도구 기반 주제 그룹화, 영속 브라우저 세션 관리 | [geminicli.com](https://geminicli.com/docs/changelogs/latest/) |
+| 2026/04/02 | **Gemma 4** 출시 (31B Dense Arena AI 3위, 26B MoE, Apache 2.0) | [developers.googleblog.com](https://developers.googleblog.com/) |
 | 2026/04/01 | **Gemini CLI v0.36.0** 안정판 — 멀티레지스트리 아키텍처, git worktree 지원, macOS/Windows 샌드박싱 강화, 비대화형 Plan Mode | [geminicli.com](https://geminicli.com/docs/changelogs/latest/) |
 | 2026/03/31 | `gemini-2.5-flash-lite-preview-09-2025` 모델 종료 | [ai.google.dev](https://ai.google.dev/gemini-api/docs/changelog) |
 | 2026/03/28 | **Gemini 3 Deep Think 정식 오픈** Ultra 구독자 대상 + 연구자 API 조기 접근 | [blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/) |
@@ -1122,6 +1143,9 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/04/09 | Copilot **Autopilot** 프리뷰 — 완전 자율 에이전트 세션, 수동 승인 불필요 | [github.blog](https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases/) |
+| 2026/04/09 | Copilot CLI **v1.0.22** — MCP 스키마 정규화, 대형 이미지 처리 개선, 새 인라인 렌더러 | [github.com/github/copilot-cli](https://github.com/github/copilot-cli/releases/) |
+| 2026/04/02 | **Copilot SDK** 퍼블릭 프리뷰 — 커스텀 앱에 Copilot 에이전틱 기능 임베드 | [github.blog](https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/) |
 | 2026/03/31 | **Copilot PR "광고" 버그** — 수동 PR에 Copilot 팁 표시, MS가 버그 확인 후 기능 제거 | [windowslatest.com](https://www.windowslatest.com/2026/03/31/microsoft-says-copilot-ad-in-github-pull-request-was-a-bug-not-an-advertisement/) |
 | 2026/03/30 | GitHub Copilot **데이터 학습 논란** — 4/24부터 Free/Pro/Pro+ 데이터 AI 학습에 활용, 옵트아웃 필요 | [afterdawn.com](https://www.afterdawn.com/news/article.cfm/2026/03/30/github-copilot-to-train-its-ai-with-users-prompts-code) |
 | 2026/03/26 | **Gemini 3 Pro 지원 중단** — 모든 Copilot 환경에서 | [github.blog](https://github.blog/changelog/2026-03-26-gemini-3-pro-deprecated/) |
@@ -1136,6 +1160,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 | 날짜 | 발표 내용 | 출처 |
 |---|---|---|
+| 2026/04/02 | **Cursor 3** — Agents Window (레포·환경별 병렬 에이전트), Design Mode (브라우저에서 UI 주석), /worktree, /best-of-n, Bugbot 해결률 78% | [cursor.com](https://cursor.com/blog/cursor-3) |
 | 2026/03/25 | **자체 호스팅 클라우드 에이전트** (Brex, Money Forward, Notion) | [cursor.com](https://cursor.com/blog/self-hosted-cloud-agents) |
 | 2026/03/19 | **Composer 2** 모델 (Kimi K2.5 기반) + **Cursor Glass** 알파 | [cursor.com](https://cursor.com/blog/composer-2) |
 | 2026/03/12 | **$50B 밸류에이션** 협상 (Bloomberg) | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-03-12/ai-coding-startup-cursor-in-talks-for-about-50-billion-valuation) |
@@ -1181,7 +1206,7 @@ AI 도구 시장은 매주 바뀝니다. 정보가 오래됐거나 새 도구가
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.04.07-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.04.10-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>

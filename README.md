@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-04-07</sub>
+  <sub>Last updated: 2026-04-10</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.04.07-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.04.10-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -143,8 +143,12 @@ timeline
          : GitHub Copilot data training opt-out backlash (Mar 30)
          : Midjourney V1 video model launched
          : Gemini CLI v0.36.0 stable — multi-registry, git worktrees (Apr 1)
+         : Cursor 3 — Agents Window, Design Mode, /worktree (Apr 2)
+         : Copilot SDK public preview (Apr 2)
          : Claude Code v2.1.92 — Bedrock wizard, /cost breakdown (Apr 4)
          : Codex CLI v0.118.0 — legacy model removal (Apr 6)
+         : Gemini CLI v0.37.0 — dynamic sandbox, Chapters (Apr 8)
+         : Copilot Autopilot preview + CLI v1.0.22 (Apr 9)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -372,6 +376,18 @@ Free            = Gemini CLI + Aider
 **Claude Code v2.1.92** (2026.04.04):
 > *"Interactive Bedrock setup wizard, per-model cost breakdown in /cost, 60% faster Write tool on large files. Quality-of-life release."* — code.claude.com `2026.04.04`
 
+**Cursor 3 Launch** (2026.04.02):
+> *"Cursor 3 lets you run many agents in parallel across repos and environments. Design Mode annotates UI elements directly in the browser. /best-of-n runs the same task across multiple models and compares outcomes."* — cursor.com `2026.04.02`
+
+**Gemini CLI v0.37.0** (2026.04.08):
+> *"Dynamic sandbox expansion, 'Chapters' for grouping agent interactions by tool usage and intent, persistent browser session management. Free CLI keeps closing the gap."* — geminicli.com `2026.04.08`
+
+**Copilot Autopilot Preview** (2026.04.09):
+> *"Autopilot approves its own actions, automatically retries on errors, and works autonomously until the task completes. No manual approvals required."* — GitHub Blog `2026.04.09`
+
+**Copilot SDK Public Preview** (2026.04.02):
+> *"The Copilot SDK gives you building blocks to embed Copilot's agentic capabilities directly into your own applications and workflows."* — GitHub Blog `2026.04.02`
+
 **Trae Privacy Warning**:
 > *"Sending data to 5 ByteDance domains every 30 seconds. Continues even with telemetry disabled."* — Unit 221B security analysis
 
@@ -528,26 +544,26 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["03-25", "03-26", "03-27", "03-28", "03-29", "03-30", "03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07"]
+    x-axis ["03-28", "03-29", "03-30", "03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10"]
     y-axis "Popularity Score" 50 --> 100
-    line "Claude Code" [86, 87, 87, 88, 89, 90, 90, 91, 91, 91, 92, 92, 92, 92]
-    line "GH Copilot" [90, 89, 89, 89, 89, 89, 89, 89, 89, 89, 88, 88, 88, 88]
-    line "Cursor" [86, 87, 87, 87, 87, 87, 88, 88, 88, 88, 88, 88, 88, 88]
-    line "Windsurf" [75, 75, 75, 75, 75, 75, 75, 75, 75, 74, 74, 74, 74, 74]
+    line "Claude Code" [88, 89, 90, 90, 91, 91, 91, 92, 92, 92, 92, 92, 92, 92]
+    line "GH Copilot" [89, 89, 89, 89, 89, 89, 89, 88, 88, 88, 88, 88, 87, 87]
+    line "Cursor" [87, 87, 87, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89]
+    line "Windsurf" [75, 75, 75, 75, 75, 75, 74, 74, 74, 74, 74, 74, 74, 74]
     line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72]
-    line "Gemini CLI" [61, 61, 61, 62, 62, 62, 63, 64, 64, 64, 64, 64, 64, 64]
-    line "Antigravity" [61, 60, 59, 58, 57, 56, 55, 54, 54, 53, 53, 53, 52, 52]
+    line "Gemini CLI" [62, 62, 62, 63, 64, 64, 64, 64, 64, 64, 64, 65, 65, 65]
+    line "Antigravity" [58, 57, 56, 55, 54, 54, 53, 53, 53, 52, 52, 52, 52, 51]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-92↑-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-88↓-E74C3C?style=flat-square" alt="GH Copilot">
-  <img src="https://img.shields.io/badge/●_Cursor-88-9B59B6?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_Cursor-89↑-27AE60?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-87↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-74↓-E74C3C?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-72-9B59B6?style=flat-square" alt="Codex CLI">
-  <img src="https://img.shields.io/badge/●_Gemini_CLI-64↑-27AE60?style=flat-square" alt="Gemini CLI">
-  <img src="https://img.shields.io/badge/●_Antigravity-52↓-E74C3C?style=flat-square" alt="Antigravity">
+  <img src="https://img.shields.io/badge/●_Gemini_CLI-65↑-27AE60?style=flat-square" alt="Gemini CLI">
+  <img src="https://img.shields.io/badge/●_Antigravity-51↓-E74C3C?style=flat-square" alt="Antigravity">
 </p>
 
 
@@ -1003,21 +1019,21 @@ The AI tools market changes every week. If information is outdated or a new tool
 ---
 
 
-### Fact Check Log (2026-04-07)
+### Fact Check Log (2026-04-10)
 
 All pricing information has been directly verified from each service's official website.
 
 | Tool | Verification URL | Key Changes |
 |---|---|---|
-| ChatGPT | chatgpt.com/pricing | Go plan $8/mo newly added |
-| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo) |
+| ChatGPT | chatgpt.com/pricing | File Library, CarPlay integration, GPT-5.4 Thinking flagship |
+| Claude | claude.com/pricing | Max plan confirmed ($100~$200/mo), third-party tool restriction |
 | Claude Code | code.claude.com/changelog | v2.1.92 (Apr 4) — Bedrock wizard, /cost breakdown, faster Write |
-| Cursor | cursor.com/pricing | Pro+ $60/mo confirmed, Composer 2 launched, $50B talks |
-| Windsurf | windsurf.com/pricing | Max $200/mo confirmed, credits → daily quotas |
-| Kiro | kiro.dev/pricing | 500 bonus credits (30 days) |
-| GitHub Copilot | github.com/features/copilot/plans | Data training opt-out deadline Apr 24, "ad" bug fixed |
-| Gemini CLI | geminicli.com | v0.36.0 stable (Apr 1), multi-registry, git worktrees |
-| Devin | devin.ai/pricing | ACU-based billing confirmed |
+| Cursor | cursor.com/pricing | **Cursor 3** released (Apr 2), Agents Window, Design Mode |
+| Windsurf | windsurf.com/pricing | Max $200/mo confirmed, credits → daily quotas, Lifeguard beta |
+| Kiro | kiro.dev/pricing | Enterprise SSO (Okta/Entra ID), web tools, subagents |
+| GitHub Copilot | github.com/features/copilot/plans | Autopilot preview, Copilot SDK, data training opt-out Apr 24 |
+| Gemini CLI | geminicli.com | v0.37.0 stable (Apr 8), dynamic sandbox, Chapters |
+| Devin | devin.ai/pricing | ACU-based billing, v3 API, Focus Mode, Desktop Testing |
 | Bolt | bolt.new/pricing | token rollover from Jul 2025 |
 | v0 | v0.app/pricing | domain changed v0.dev → v0.app |
 | Lovable | lovable.dev/pricing | 50% student discount, Q1 Cloud $25 included |
@@ -1102,6 +1118,9 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/04/~ | ChatGPT **File Library** — auto-saves uploaded/created files for reuse across chats | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/04/~ | ChatGPT **CarPlay** integration — hands-free access on iOS 26.4+ | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
+| 2026/04/~ | **GPT-5.3-Codex** upgrade — 25% faster, stronger reasoning, real-time progress updates | [openai.com](https://openai.com/index/introducing-upgrades-to-codex/) |
 | 2026/04/06 | **Codex CLI v0.118.0** — removed gpt-5.1-codex, gpt-5.1-codex-mini, gpt-5.1-codex-max model support | [github.com/openai/codex](https://github.com/openai/codex/releases) |
 | 2026/03/26 | Legacy deep research mode removed | [help.openai.com](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
 | 2026/03/18 | **GPT-5.3-Codex LTS** (12-month support for Enterprise) | [github.blog](https://github.blog/changelog/2026-03-18-gpt-5-3-codex-long-term-support-in-github-copilot/) |
@@ -1121,6 +1140,8 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/04/08 | **Gemini CLI v0.37.0** stable — dynamic sandbox expansion, "Chapters" tool-based topic grouping, enhanced browser agent with persistent sessions | [geminicli.com](https://geminicli.com/docs/changelogs/latest/) |
+| 2026/04/02 | **Gemma 4** released (31B Dense #3 on Arena AI, 26B MoE, Apache 2.0) | [developers.googleblog.com](https://developers.googleblog.com/) |
 | 2026/04/01 | **Gemini CLI v0.36.0** stable — multi-registry architecture, git worktree support, enhanced macOS/Windows sandboxing, non-interactive Plan Mode | [geminicli.com](https://geminicli.com/docs/changelogs/latest/) |
 | 2026/03/31 | `gemini-2.5-flash-lite-preview-09-2025` model shut down | [ai.google.dev](https://ai.google.dev/gemini-api/docs/changelog) |
 | 2026/03/28 | **Gemini 3 Deep Think live** for Ultra subscribers + early API access for researchers | [blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/) |
@@ -1142,6 +1163,9 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/04/09 | Copilot **Autopilot** preview — fully autonomous agent sessions, no manual approvals required | [github.blog](https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases/) |
+| 2026/04/09 | Copilot CLI **v1.0.22** — MCP schema sanitization, improved large image handling, new inline renderer | [github.com/github/copilot-cli](https://github.com/github/copilot-cli/releases/) |
+| 2026/04/02 | **Copilot SDK** public preview — embed Copilot agentic capabilities in custom apps | [github.blog](https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/) |
 | 2026/03/31 | **Copilot "ad" bug** in PRs — Microsoft confirms tips in human PRs was a bug, removes feature | [windowslatest.com](https://www.windowslatest.com/2026/03/31/microsoft-says-copilot-ad-in-github-pull-request-was-a-bug-not-an-advertisement/) |
 | 2026/03/30 | GitHub Copilot **data training backlash** — all Free/Pro/Pro+ data used for training starting Apr 24, opt-out required | [afterdawn.com](https://www.afterdawn.com/news/article.cfm/2026/03/30/github-copilot-to-train-its-ai-with-users-prompts-code) |
 | 2026/03/26 | **Gemini 3 Pro deprecated** across all Copilot experiences | [github.blog](https://github.blog/changelog/2026-03-26-gemini-3-pro-deprecated/) |
@@ -1156,6 +1180,7 @@ All pricing information has been directly verified from each service's official 
 
 | Date | Release | Source |
 |---|---|---|
+| 2026/04/02 | **Cursor 3** — Agents Window (parallel agents across repos), Design Mode (annotate UI in browser), /worktree, /best-of-n, Bugbot 78% resolution rate | [cursor.com](https://cursor.com/blog/cursor-3) |
 | 2026/03/25 | **Self-hosted cloud agents** (Brex, Money Forward, Notion) | [cursor.com](https://cursor.com/blog/self-hosted-cloud-agents) |
 | 2026/03/19 | **Composer 2** model (Kimi K2.5 based) + **Cursor Glass** alpha | [cursor.com](https://cursor.com/blog/composer-2) |
 | 2026/03/12 | **$50B valuation** talks (Bloomberg) | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-03-12/ai-coding-startup-cursor-in-talks-for-about-50-billion-valuation) |
@@ -1201,7 +1226,7 @@ All pricing information has been directly verified from each service's official 
 
 <p align="center">
   <img src="https://img.shields.io/badge/MIT-License-blue?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/Last_Updated-2026.04.07-brightgreen?style=flat-square" alt="Updated">
+  <img src="https://img.shields.io/badge/Last_Updated-2026.04.10-brightgreen?style=flat-square" alt="Updated">
   <img src="https://img.shields.io/github/repo-size/tykimos/ai-whatchelin?style=flat-square&label=Repo_Size" alt="Repo Size">
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftykimos%2Fai-whatchelin&count_bg=%236366f1&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors">
 </p>
