@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-04-10</sub>
+  <sub>마지막 업데이트: 2026-04-12</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.04.10-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.04.12-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -149,6 +149,9 @@ timeline
          : Codex CLI v0.118.0 — 레거시 모델 제거 (4/6)
          : Gemini CLI v0.37.0 — 동적 샌드박스, Chapters (4/8)
          : Copilot Autopilot 프리뷰 + CLI v1.0.22 (4/9)
+         : Copilot CLI v1.0.24 — preToolUse 훅, 표시 이름 (4/10)
+         : Codex CLI v0.120.0 — Windows 샌드박스 이그레스, 디바이스 코드 인증 (4/11)
+         : Cursor Bugbot — 80% 해결률, MCP 지원 (4/8)
 ```
 
 ### 바이브코더들이 실제로 쓰는 조합
@@ -317,6 +320,9 @@ quadrantChart
 **GitHub Copilot 데이터 학습** (2026.03.30):
 > *"4월 24일부터 모든 Copilot Free/Pro/Pro+ 상호작용 데이터가 AI 학습에 사용된다. 옵트아웃 필요. Business/Enterprise 제외."* — AfterDawn `2026.03.30`
 
+**Codex CLI v0.120.0** (2026.04.11):
+> *"Windows 샌드박스가 이제 OS 수준 이그레스 규칙으로 프록시 전용 네트워킹을 강제한다. 브라우저 콜백이 불안정할 때를 위한 디바이스 코드 플로 인증 추가."* — openai.com/codex/changelog `2026.04.11`
+
 **2026 파워 스택 공식**:
 ```
 일상 코딩 = Codex CLI (키스트로크 레벨)
@@ -384,6 +390,12 @@ quadrantChart
 
 **Copilot SDK 퍼블릭 프리뷰** (2026.04.02):
 > *"Copilot SDK로 Copilot의 에이전틱 기능을 자신의 앱과 워크플로에 직접 임베드할 수 있다."* — GitHub Blog `2026.04.02`
+
+**Cursor Bugbot 업데이트** (2026.04.08):
+> *"Bugbot이 이제 MCP를 지원하며 실시간으로 자기 개선한다. 해결률 80%에 근접 — 차순위 AI 코드 리뷰 제품보다 15%p 높다."* — cursor.com/changelog `2026.04.08`
+
+**r/programming LLM 금지** (2026.04.01):
+> *"r/programming (690만 회원)이 4월 한 달간 모든 LLM 콘텐츠를 일시 금지했다. 모더레이터들은 AI 담론이 '지겹도록' 다른 프로그래밍 주제를 묻어버린다고 밝혔다."* — Tom's Hardware `2026.04.01`
 
 **Trae 프라이버시 경고**:
 > *"30초마다 ByteDance 도메인 5곳에 데이터 전송. 텔레메트리 끄기 설정해도 계속 전송."* — Unit 221B 보안 분석
@@ -494,6 +506,15 @@ xychart-beta
 **Claude, 앱스토어에서 ChatGPT 추월** (2026.03.28):
 > *"Claude가 사상 처음 앱스토어 무료 차트에서 ChatGPT를 넘었다 — 유료 구독자 성장이 급등 중이며, ChatGPT 광고 삽입을 조롱하는 슈퍼볼 광고가 한몫했다."* — TechCrunch `2026.03.28`
 
+**Cursor Bugbot 80% 해결률** (2026.04.08):
+> *"Bugbot이 80% 해결률에 근접 — 차순위 AI 코드 리뷰 제품보다 15%p 높다. MCP 지원으로 실시간 자기 개선."* — cursor.com `2026.04.08`
+
+**Codex CLI v0.120.0** (2026.04.11):
+> *"Windows 샌드박스에 OS 수준 이그레스 규칙 적용. ChatGPT 로그인용 디바이스 코드 플로 추가."* — openai.com `2026.04.11`
+
+**r/programming LLM 금지** (2026.04.01):
+> *"r/programming (690만 회원)이 4월 한 달간 모든 LLM 콘텐츠를 일시 금지. AI 담론이 '지겹도록' 다른 주제를 묻어버린다며. 4월 1일 시작 — 만우절 장난 아님."* — Tom's Hardware `2026.04.01`
+
 | 매치업 | 승자 (상황별) |
 |---|---|
 | **Claude Code vs Codex CLI** | 계획 따르기/디버깅 = Claude Code, 한도 없이 = Codex CLI |
@@ -535,22 +556,22 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["03-28", "03-29", "03-30", "03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10"]
+    x-axis ["03-30", "03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12"]
     y-axis "인기 점수" 50 --> 100
-    line "Claude Code" [88, 89, 90, 90, 91, 91, 91, 92, 92, 92, 92, 92, 92, 92]
-    line "GH Copilot" [89, 89, 89, 89, 89, 89, 89, 88, 88, 88, 88, 88, 87, 87]
-    line "Cursor" [87, 87, 87, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89]
-    line "Windsurf" [75, 75, 75, 75, 75, 75, 74, 74, 74, 74, 74, 74, 74, 74]
+    line "Claude Code" [90, 90, 91, 91, 91, 92, 92, 92, 92, 92, 92, 92, 92, 92]
+    line "GH Copilot" [89, 89, 89, 89, 89, 88, 88, 88, 88, 88, 87, 87, 87, 86]
+    line "Cursor" [87, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90]
+    line "Windsurf" [75, 75, 75, 75, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74]
     line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72]
-    line "Gemini CLI" [62, 62, 62, 63, 64, 64, 64, 64, 64, 64, 64, 65, 65, 65]
-    line "Antigravity" [58, 57, 56, 55, 54, 54, 53, 53, 53, 52, 52, 52, 52, 51]
+    line "Gemini CLI" [62, 63, 64, 64, 64, 64, 64, 64, 64, 65, 65, 65, 65, 65]
+    line "Antigravity" [56, 55, 54, 54, 53, 53, 53, 52, 52, 52, 52, 51, 51, 51]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-92↑-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-89↑-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-87↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-90↑-27AE60?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-86↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-74↓-E74C3C?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-72-9B59B6?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-65↑-27AE60?style=flat-square" alt="Gemini CLI">

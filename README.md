@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-04-10</sub>
+  <sub>Last updated: 2026-04-12</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.04.10-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.04.12-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -149,6 +149,9 @@ timeline
          : Codex CLI v0.118.0 — legacy model removal (Apr 6)
          : Gemini CLI v0.37.0 — dynamic sandbox, Chapters (Apr 8)
          : Copilot Autopilot preview + CLI v1.0.22 (Apr 9)
+         : Copilot CLI v1.0.24 — preToolUse hooks, display names (Apr 10)
+         : Codex CLI v0.120.0 — Windows sandbox egress, device code auth (Apr 11)
+         : Cursor Bugbot — 80% resolution rate, MCP support (Apr 8)
 ```
 
 ### Tool Combinations Vibe Coders Actually Use
@@ -317,6 +320,9 @@ quadrantChart
 **GitHub Copilot Data Training** (2026.03.30):
 > *"Starting April 24, all Copilot Free/Pro/Pro+ interaction data will be used for AI training unless you opt out. Business/Enterprise accounts excluded."* — AfterDawn `2026.03.30`
 
+**Codex CLI v0.120.0** (2026.04.11):
+> *"Windows sandbox now enforces proxy-only networking with OS-level egress rules. Device code flow added for ChatGPT sign-in when browser callback is unreliable."* — openai.com/codex/changelog `2026.04.11`
+
 **2026 Power Stack Formula**:
 ```
 Daily coding    = Codex CLI (keystroke level)
@@ -387,6 +393,12 @@ Free            = Gemini CLI + Aider
 
 **Copilot SDK Public Preview** (2026.04.02):
 > *"The Copilot SDK gives you building blocks to embed Copilot's agentic capabilities directly into your own applications and workflows."* — GitHub Blog `2026.04.02`
+
+**Cursor Bugbot Update** (2026.04.08):
+> *"Bugbot now self-improves in real time with MCP support. Resolution rate nearing 80% — 15 percentage points higher than the next-closest AI code review product."* — cursor.com/changelog `2026.04.08`
+
+**r/programming LLM Ban** (2026.04.01):
+> *"r/programming (6.9M members) temporarily banned all LLM content for April. Moderators cited 'exhausting' levels of AI discourse drowning out other programming topics."* — Tom's Hardware `2026.04.01`
 
 **Trae Privacy Warning**:
 > *"Sending data to 5 ByteDance domains every 30 seconds. Continues even with telemetry disabled."* — Unit 221B security analysis
@@ -503,6 +515,15 @@ xychart-beta
 **Cursor Composer 2 / Kimi K2.5** (2026.03.19):
 > *"Composer 2 launched — frontier-level coding at $0.50-$1.50/M input tokens. Cursor crossing $2B ARR and in $50B valuation talks."* — cursor.com `2026.03.19`
 
+**Cursor Bugbot 80% Resolution** (2026.04.08):
+> *"Bugbot nearing 80% resolution rate — 15 points higher than the next-closest AI code review product. Self-improving in real time with MCP support."* — cursor.com `2026.04.08`
+
+**Codex CLI v0.120.0** (2026.04.11):
+> *"Windows sandbox now enforces OS-level egress rules. Device code flow added for ChatGPT sign-in."* — openai.com `2026.04.11`
+
+**r/programming LLM Ban** (2026.04.01):
+> *"r/programming (6.9M members) temporarily banned all LLM content for April, citing 'exhausting' AI discourse. Started April 1 — not an April Fools' joke."* — Tom's Hardware `2026.04.01`
+
 | Matchup | Winner (by situation) |
 |---|---|
 | **Claude Code vs Codex CLI** | follow plans/debug = Claude Code, no limits = Codex CLI |
@@ -544,22 +565,22 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["03-28", "03-29", "03-30", "03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10"]
+    x-axis ["03-30", "03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12"]
     y-axis "Popularity Score" 50 --> 100
-    line "Claude Code" [88, 89, 90, 90, 91, 91, 91, 92, 92, 92, 92, 92, 92, 92]
-    line "GH Copilot" [89, 89, 89, 89, 89, 89, 89, 88, 88, 88, 88, 88, 87, 87]
-    line "Cursor" [87, 87, 87, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89]
-    line "Windsurf" [75, 75, 75, 75, 75, 75, 74, 74, 74, 74, 74, 74, 74, 74]
+    line "Claude Code" [90, 90, 91, 91, 91, 92, 92, 92, 92, 92, 92, 92, 92, 92]
+    line "GH Copilot" [89, 89, 89, 89, 89, 88, 88, 88, 88, 88, 87, 87, 87, 86]
+    line "Cursor" [87, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90]
+    line "Windsurf" [75, 75, 75, 75, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74]
     line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72]
-    line "Gemini CLI" [62, 62, 62, 63, 64, 64, 64, 64, 64, 64, 64, 65, 65, 65]
-    line "Antigravity" [58, 57, 56, 55, 54, 54, 53, 53, 53, 52, 52, 52, 52, 51]
+    line "Gemini CLI" [62, 63, 64, 64, 64, 64, 64, 64, 64, 65, 65, 65, 65, 65]
+    line "Antigravity" [56, 55, 54, 54, 53, 53, 53, 52, 52, 52, 52, 51, 51, 51]
 ```
 <!-- POPULARITY_CHART_END -->
 
 <p align="center">
   <img src="https://img.shields.io/badge/●_Claude_Code-92↑-27AE60?style=flat-square" alt="Claude Code">
-  <img src="https://img.shields.io/badge/●_Cursor-89↑-27AE60?style=flat-square" alt="Cursor">
-  <img src="https://img.shields.io/badge/●_GH_Copilot-87↓-E74C3C?style=flat-square" alt="GH Copilot">
+  <img src="https://img.shields.io/badge/●_Cursor-90↑-27AE60?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/●_GH_Copilot-86↓-E74C3C?style=flat-square" alt="GH Copilot">
   <img src="https://img.shields.io/badge/●_Windsurf-74↓-E74C3C?style=flat-square" alt="Windsurf">
   <img src="https://img.shields.io/badge/●_Codex_CLI-72-9B59B6?style=flat-square" alt="Codex CLI">
   <img src="https://img.shields.io/badge/●_Gemini_CLI-65↑-27AE60?style=flat-square" alt="Gemini CLI">
