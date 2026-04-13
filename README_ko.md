@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI 코딩 & 생산성 도구, 진짜 뭐 써야 돼?</strong><br>
-  <sub>마지막 업데이트: 2026-04-12</sub>
+  <sub>마지막 업데이트: 2026-04-13</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/팩트체크-2026.04.12-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/팩트체크-2026.04.13-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/도구_수-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -145,6 +145,7 @@ timeline
          : Gemini CLI v0.36.0 안정판 — 멀티레지스트리, git worktree (4/1)
          : Cursor 3 — Agents Window, Design Mode, /worktree (4/2)
          : Copilot SDK 퍼블릭 프리뷰 (4/2)
+         : Codex 종량제 전환 — Business $25→$20/석, 토큰 과금 (4/3)
          : Claude Code v2.1.92 — Bedrock 마법사, /cost 상세 (4/4)
          : Codex CLI v0.118.0 — 레거시 모델 제거 (4/6)
          : Gemini CLI v0.37.0 — 동적 샌드박스, Chapters (4/8)
@@ -511,6 +512,9 @@ xychart-beta
 **Cursor Bugbot 80% 해결률** (2026.04.08):
 > *"Bugbot이 80% 해결률에 근접 — 차순위 AI 코드 리뷰 제품보다 15%p 높다. MCP 지원으로 실시간 자기 개선."* — cursor.com `2026.04.08`
 
+**Codex 종량제 전환** (2026.04.03):
+> *"OpenAI가 Business/Enterprise용 Codex 고정 라이선스를 토큰 기반 과금으로 전환했다. ChatGPT Business 좌석 가격이 $25에서 $20으로 인하. Codex 전용 좌석은 속도 제한 없이 소비 토큰 기준 과금."* — openai.com `2026.04.03`
+
 **Codex CLI v0.120.0** (2026.04.11):
 > *"Windows 샌드박스에 OS 수준 이그레스 규칙 적용. ChatGPT 로그인용 디바이스 코드 플로 추가."* — openai.com `2026.04.11`
 
@@ -561,15 +565,15 @@ xychart-beta
 ```mermaid
 xychart-beta
     title "바이브코더 도구 일자별 인기도 (최근 14일)"
-    x-axis ["03-30", "03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12"]
+    x-axis ["03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13"]
     y-axis "인기 점수" 50 --> 100
-    line "Claude Code" [90, 90, 91, 91, 91, 92, 92, 92, 92, 92, 92, 92, 92, 92]
-    line "GH Copilot" [89, 89, 89, 89, 89, 88, 88, 88, 88, 88, 87, 87, 87, 86]
-    line "Cursor" [87, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90]
-    line "Windsurf" [75, 75, 75, 75, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74]
+    line "Claude Code" [90, 91, 91, 91, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92]
+    line "GH Copilot" [89, 89, 89, 89, 88, 88, 88, 88, 88, 87, 87, 87, 86, 86]
+    line "Cursor" [88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90]
+    line "Windsurf" [75, 75, 75, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74]
     line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72]
-    line "Gemini CLI" [62, 63, 64, 64, 64, 64, 64, 64, 64, 65, 65, 65, 65, 65]
-    line "Antigravity" [56, 55, 54, 54, 53, 53, 53, 52, 52, 52, 52, 51, 51, 51]
+    line "Gemini CLI" [63, 64, 64, 64, 64, 64, 64, 64, 65, 65, 65, 65, 65, 65]
+    line "Antigravity" [55, 54, 54, 53, 53, 53, 52, 52, 52, 52, 51, 51, 51, 51]
 ```
 <!-- POPULARITY_CHART_END -->
 

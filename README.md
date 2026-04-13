@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>AI WhatChelin — AI Coding & Productivity Tools, What Should You Really Use?</strong><br>
-  <sub>Last updated: 2026-04-12</sub>
+  <sub>Last updated: 2026-04-13</sub>
 </p>
 
 <p align="center">
@@ -78,7 +78,7 @@ Popularity scores are recorded daily, keeping the **daily competition chart** au
 <a href="https://github.com/tykimos/ai-whatchelin/issues"><img src="https://img.shields.io/github/issues/tykimos/ai-whatchelin?style=for-the-badge&label=Issues" alt="Issues"></a>
 <a href="https://github.com/tykimos/ai-whatchelin/pulls"><img src="https://img.shields.io/github/issues-pr/tykimos/ai-whatchelin?style=for-the-badge&label=PRs" alt="PRs"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-<img src="https://img.shields.io/badge/Fact_Check-2026.04.12-brightgreen?style=for-the-badge" alt="Fact Check">
+<img src="https://img.shields.io/badge/Fact_Check-2026.04.13-brightgreen?style=for-the-badge" alt="Fact Check">
 <img src="https://img.shields.io/badge/Tools-46+-orange?style=for-the-badge" alt="Tools">
 
 </td>
@@ -145,6 +145,7 @@ timeline
          : Gemini CLI v0.36.0 stable — multi-registry, git worktrees (Apr 1)
          : Cursor 3 — Agents Window, Design Mode, /worktree (Apr 2)
          : Copilot SDK public preview (Apr 2)
+         : Codex pay-as-you-go — Business $25→$20/seat, token billing (Apr 3)
          : Claude Code v2.1.92 — Bedrock wizard, /cost breakdown (Apr 4)
          : Codex CLI v0.118.0 — legacy model removal (Apr 6)
          : Gemini CLI v0.37.0 — dynamic sandbox, Chapters (Apr 8)
@@ -520,6 +521,9 @@ xychart-beta
 **Cursor Bugbot 80% Resolution** (2026.04.08):
 > *"Bugbot nearing 80% resolution rate — 15 points higher than the next-closest AI code review product. Self-improving in real time with MCP support."* — cursor.com `2026.04.08`
 
+**Codex Pay-as-You-Go** (2026.04.03):
+> *"OpenAI replaced fixed Codex licenses with token-based billing for Business/Enterprise. ChatGPT Business seat dropped from $25 to $20. Codex-only seats have no rate limits — pay by tokens consumed."* — openai.com `2026.04.03`
+
 **Codex CLI v0.120.0** (2026.04.11):
 > *"Windows sandbox now enforces OS-level egress rules. Device code flow added for ChatGPT sign-in."* — openai.com `2026.04.11`
 
@@ -570,15 +574,15 @@ Enterprise Security= Tabnine + Amazon Q                          = $58/user/mo
 ```mermaid
 xychart-beta
     title "Vibe Coder Tool Daily Popularity (Last 14 Days)"
-    x-axis ["03-30", "03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12"]
+    x-axis ["03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13"]
     y-axis "Popularity Score" 50 --> 100
-    line "Claude Code" [90, 90, 91, 91, 91, 92, 92, 92, 92, 92, 92, 92, 92, 92]
-    line "GH Copilot" [89, 89, 89, 89, 89, 88, 88, 88, 88, 88, 87, 87, 87, 86]
-    line "Cursor" [87, 88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90]
-    line "Windsurf" [75, 75, 75, 75, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74]
+    line "Claude Code" [90, 91, 91, 91, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92]
+    line "GH Copilot" [89, 89, 89, 89, 88, 88, 88, 88, 88, 87, 87, 87, 86, 86]
+    line "Cursor" [88, 88, 88, 88, 88, 88, 88, 88, 89, 89, 89, 89, 90, 90]
+    line "Windsurf" [75, 75, 75, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74, 74]
     line "Codex CLI" [72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72, 72]
-    line "Gemini CLI" [62, 63, 64, 64, 64, 64, 64, 64, 64, 65, 65, 65, 65, 65]
-    line "Antigravity" [56, 55, 54, 54, 53, 53, 53, 52, 52, 52, 52, 51, 51, 51]
+    line "Gemini CLI" [63, 64, 64, 64, 64, 64, 64, 64, 65, 65, 65, 65, 65, 65]
+    line "Antigravity" [55, 54, 54, 53, 53, 53, 52, 52, 52, 52, 51, 51, 51, 51]
 ```
 <!-- POPULARITY_CHART_END -->
 
