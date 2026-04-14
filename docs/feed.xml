@@ -11,7 +11,8 @@ layout: null
   <author>
     <name>AI WhatChelin</name>
   </author>
-  {% for post in site.posts limit:20 %}
+  {% assign en_posts = site.posts | where: "lang", "en" %}
+  {% for post in en_posts limit:20 %}
   <entry>
     <title>{{ post.title | xml_escape }}</title>
     <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>

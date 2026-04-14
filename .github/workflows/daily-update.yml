@@ -95,7 +95,7 @@ jobs:
             #### 5. Write daily news posts — English AND Korean (mandatory)
             After committing README/CSV changes, create TWO Jekyll news posts every day without exception:
             - English: docs/_posts/YYYY-MM-DD-daily-update.md
-            - Korean: docs/ko/_posts/YYYY-MM-DD-daily-update.md
+            - Korean: docs/_posts/YYYY-MM-DD-daily-update-ko.md
 
             English post format:
             ```markdown

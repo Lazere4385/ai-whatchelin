@@ -14,8 +14,9 @@ title: Home
 
 <h2 style="margin-bottom: 1rem;">Recent Updates</h2>
 
+{% assign en_posts = site.posts | where: "lang", "en" %}
 <ul class="post-list">
-  {% for post in site.posts limit:20 %}
+  {% for post in en_posts limit:20 %}
   <li>
     <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
     <div class="post-meta">{{ post.date | date: "%B %d, %Y" }}</div>

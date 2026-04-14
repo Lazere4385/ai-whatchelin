@@ -1,6 +1,7 @@
 ---
 title: "AI WhatChelin Daily — April 12, 2026"
 date: 2026-04-12
+lang: en
 tags: [daily, popularity, claude, cursor, copilot, windsurf, gemini, codex, aider, chatgpt, antigravity, openai]
 ---
 
