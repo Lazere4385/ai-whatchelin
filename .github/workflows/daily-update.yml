@@ -97,67 +97,66 @@ jobs:
             - English: docs/_posts/YYYY-MM-DD-daily-update.md
             - Korean: docs/_posts/YYYY-MM-DD-daily-update-ko.md
 
+            IMPORTANT: Write these as REAL NEWS ARTICLES, not data dumps.
+            Each post should read like a tech news briefing — with context, analysis, and narrative.
+
             English post format:
             ```markdown
             ---
-            title: "AI WhatChelin Daily — Month DD, YYYY"
+            title: "headline summarizing today's biggest story"
             date: YYYY-MM-DD
             lang: en
-            tags: [daily, popularity, relevant-tags]
+            categories: [news]
+            tags: [relevant-service-tags]
+            excerpt: "1-2 sentence hook that makes readers want to read more"
             ---
 
-            One-line summary of today's highlights.
+            Opening paragraph (2-3 sentences): Lead with the most important news of the day.
+            Provide context — why does this matter to developers?
 
-            ## Popularity Scores
+            ## [Service Name]: Headline for this service's news
 
-            | Tool | Score | Trend |
-            |---|---|---|
-            (today's scores with trend vs yesterday)
+            Write 2-4 sentences as a proper news paragraph. Include what changed,
+            why it matters, and link to the source where possible.
+            Quote community reactions if relevant: *"reaction text"* — [source](url)
 
-            ## Key Changes
+            ## [Another Service]: Headline
 
-            - **Change title**: Description
-            (if none, write "No major changes today.")
+            Same format. Only include services that actually have news today.
+            Don't force sections for services with no updates.
 
-            ## Sources
+            ## Market Pulse
 
-            Comma-separated list of sources searched.
+            | Tool | Score | Δ | Signal |
+            |---|---|---|---|
+            | ChatGPT | 97 | — | ... |
+            | Claude Code | 92 | ↑2 | Overtook Copilot this week |
+
+            Brief 1-2 sentence analysis of notable movements.
+
+            ---
+
+            *Sources: [Source1](url), [Source2](url), ...*
             ```
 
-            Korean post format:
-            ```markdown
-            ---
-            title: "AI 뭐슐랭 데일리 — YYYY년 MM월 DD일"
-            date: YYYY-MM-DD
-            lang: ko
-            tags: [daily, popularity, relevant-tags]
-            ---
+            Key writing rules:
+            - Title: catchy headline, NOT "AI WhatChelin Daily — Date"
+            - Only create sections for services with actual news (don't list every tool)
+            - Write in journalist style: lead with the most impactful story
+            - Include links to sources inline where possible
+            - Market Pulse table goes at the bottom, not the top
+            - The "Signal" column gives a brief qualitative note (e.g., "3-week high", "post-controversy dip")
+            - Keep total length 300-600 words
 
-            오늘의 하이라이트 한 줄 요약.
+            Korean post: Same structure, translated naturally.
+            - Title in Korean (catchy headline, not date format)
+            - Service names stay in English
+            - Market Pulse table header: 도구 | 점수 | 변동 | 시그널
+            - Section header "Market Pulse" → "마켓 펄스"
+            - Sources → 출처
 
-            ## 인기도 점수
-
-            | 도구 | 점수 | 추세 |
-            |---|---|---|
-            (오늘 점수와 어제 대비 변동)
-
-            ## 주요 변경사항
-
-            - **변경 제목**: 설명
-            (없으면 "오늘 주요 변경사항 없음.")
-
-            ## 출처
-
-            쉼표로 구분된 검색 소스 목록.
-            ```
-
-            Translation rules for Korean posts:
-            - Tool names remain in English (ChatGPT, Claude Code, Cursor, etc.)
-            - Section headings in Korean
-            - Key changes descriptions translated to natural Korean
-            - "Notable" summary translated to Korean
-
-            Important: Create BOTH posts even if only the popularity CSV was updated. Never skip.
+            Important: Create BOTH posts even if only the popularity CSV was updated.
+            On quiet days, write about trends, analysis, or community sentiment instead.
             After creating both posts, stage them and include in the git commit.
 
             ---

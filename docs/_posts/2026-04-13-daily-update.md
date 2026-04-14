@@ -1,46 +1,47 @@
 ---
-title: "AI WhatChelin Daily — April 13, 2026"
+title: "Codex Goes Pay-As-You-Go as Legacy Models Face Sunset"
 date: 2026-04-13
 lang: en
-tags: [daily, popularity, claude, cursor, copilot, windsurf, gemini, codex, aider, chatgpt, antigravity, openai]
+categories: [news]
+tags: [openai, codex, gpt, cursor, copilot]
+excerpt: "OpenAI overhauls Codex pricing and retires legacy models, while Cursor quietly climbs to 90 and GitHub Copilot hits a new low."
 ---
 
+OpenAI is making its biggest Codex shake-up in months. Starting tomorrow, legacy models including gpt-5.2-codex and the gpt-5.1 series will be removed from Codex for ChatGPT sign-in — a move that pushes developers toward the newer, faster alternatives.
 
+## OpenAI: Codex Pricing Overhaul and New Models
 
-## Popularity Scores
+The headline change is Codex's shift to **pay-as-you-go billing**. Business seats drop from $25 to $20, but the real shift is token-based pricing replacing fixed licenses for Enterprise. OpenAI is clearly betting that usage-based pricing will drive wider adoption.
 
-| Tool | Score | Trend |
-|---|---|---|
-| ChatGPT | 97 | — (stable) |
-| Claude Code | 92 | — (stable) |
-| Cursor | 90 | — (stable, up from 88 two weeks ago) |
-| Claude AI | 87 | — (stable) |
-| GitHub Copilot | 86 | — (stable, down from 89 two weeks ago) |
-| Windsurf | 74 | — (stable) |
-| Codex CLI | 72 | — (stable) |
-| Aider | 68 | — (stable) |
-| Gemini CLI | 65 | — (stable) |
-| Antigravity | 51 | — (stable, down from 55 two weeks ago) |
+Alongside the pricing change, **GPT-5.4 mini** is now available across all Codex surfaces — the app, CLI, IDE extension, and web — consuming only 30% of a GPT-5.4 quota. For developers who found full GPT-5.4 too expensive for everyday tasks, this is a practical middle ground.
 
-**Notable 14-day trends:** Cursor continues its rise (+2), now tied at 90. GitHub Copilot continues its decline (-3) amid data training backlash. Antigravity keeps falling (-4) due to quota controversy.
+The more experimental news: **GPT-5.3-Codex-Spark**, a research preview delivering 1,000+ tokens/sec for real-time coding. At that speed, latency essentially disappears from the coding loop.
 
-## Key Changes
+## Cursor Quietly Climbs to 90
 
-- **Codex pay-as-you-go pricing (Apr 3)**: Added to timelines and community reactions in both READMEs. OpenAI replaced fixed Codex licenses with token-based billing for Business/Enterprise, dropping seat price from $25 to $20.
-- **Codex legacy model sunset reminder**: Starting April 14, gpt-5.2-codex and gpt-5.1 series models are being removed from Codex for ChatGPT sign-in.
-- **GPT-5.4 mini now in Codex**: Available across Codex app, CLI, IDE extension, and web — uses only 30% of GPT-5.4 quota.
-- **GPT-5.3-Codex-Spark**: Research preview delivering 1,000+ tokens/sec for real-time coding.
+Cursor hit a score of 90 this week, up from 88 two weeks ago, continuing a steady upward trend that's gone largely unnoticed. The AI-native editor has been gaining ground through consistent quality improvements rather than splashy announcements — a strategy that seems to be working with developers who value reliability over hype.
 
-## Sources
+## GitHub Copilot's Slow Slide Continues
 
-- OpenAI Codex changelog & pricing pages
-- GitHub Copilot release notes
-- Cursor changelog
-- Claude Code changelog
-- Gemini CLI releases
-- Windsurf changelog
-- Reddit r/programming, r/ChatGPTCoding, r/ClaudeAI
-- Hacker News
-- TechCrunch, The New Stack, VentureBeat
-- Tom's Hardware
-- Various AI tool comparison sites (NxCode, LogRocket, etc.)
+GitHub Copilot dropped to 86, its lowest point in our tracking period — down from 89 two weeks ago. The ongoing **data training opt-out controversy** (deadline: April 24) continues to erode developer trust. Community sentiment on Reddit remains skeptical: *"The opt-out should have been opt-in from the start."*
+
+## Market Pulse
+
+| Tool | Score | Δ | Signal |
+|---|---|---|---|
+| ChatGPT | 97 | — | Dominant, stable |
+| Claude Code | 92 | — | Holding #2 since Apr 7 |
+| Cursor | 90 | ↑2 | 3-week climb, quiet momentum |
+| Claude AI | 87 | — | Stable |
+| GitHub Copilot | 86 | ↓3 | Data training backlash |
+| Windsurf | 74 | — | Flat |
+| Codex CLI | 72 | — | Awaiting pricing impact |
+| Aider | 68 | — | Niche but loyal |
+| Gemini CLI | 65 | — | Steady |
+| Antigravity | 51 | ↓4 | Quota controversy drag |
+
+Cursor's rise and Copilot's decline are converging — only 4 points apart now. If the trend holds, Cursor could overtake Copilot within two weeks.
+
+---
+
+*Sources: [OpenAI Codex changelog](https://help.openai.com), [Cursor changelog](https://cursor.com/blog), [GitHub Copilot release notes](https://github.blog), Reddit [r/ChatGPTCoding](https://reddit.com/r/ChatGPTCoding), [Hacker News](https://news.ycombinator.com), TechCrunch, VentureBeat*

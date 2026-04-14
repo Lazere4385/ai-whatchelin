@@ -1,46 +1,47 @@
 ---
-title: "AI 뭐슐랭 데일리 — 2026년 04월 13일"
+title: "Codex, 종량제 전환 — 레거시 모델 퇴장 임박"
 date: 2026-04-13
 lang: ko
-tags: [daily, popularity, claude, cursor, copilot, windsurf, gemini, codex, aider, chatgpt, antigravity, openai]
+categories: [news]
+tags: [openai, codex, gpt, cursor, copilot]
+excerpt: "OpenAI가 Codex 요금제를 전면 개편하고 레거시 모델을 퇴장시키는 가운데, Cursor는 조용히 90점에 도달하고 GitHub Copilot은 최저점을 기록했다."
 ---
 
-14일간 주요 추세: Cursor 상승세 지속 (+2), GitHub Copilot 데이터 학습 반발로 하락세 지속 (-3), Antigravity 할당량 논란으로 계속 하락 (-4).
+OpenAI가 몇 달 만에 가장 큰 Codex 변화를 단행한다. 내일부터 gpt-5.2-codex와 gpt-5.1 시리즈가 Codex의 ChatGPT 로그인에서 제거되며, 개발자들은 더 새롭고 빠른 모델로 이동해야 한다.
 
-## 인기도 점수
+## OpenAI: Codex 요금제 대개편과 신규 모델
 
-| 도구 | 점수 | 추세 |
-|---|---|---|
-| ChatGPT | 97 | — (안정) |
-| Claude Code | 92 | — (안정) |
-| Cursor | 90 | — (안정, 2주 전 88에서 상승) |
-| Claude AI | 87 | — (안정) |
-| GitHub Copilot | 86 | — (안정, 2주 전 89에서 하락) |
-| Windsurf | 74 | — (안정) |
-| Codex CLI | 72 | — (안정) |
-| Aider | 68 | — (안정) |
-| Gemini CLI | 65 | — (안정) |
-| Antigravity | 51 | — (안정, 2주 전 55에서 하락) |
+가장 큰 변화는 Codex의 **종량제(pay-as-you-go) 전환**이다. Business 시트 가격은 $25에서 $20으로 내려가지만, 핵심은 Enterprise에서 고정 라이선스가 토큰 기반 과금으로 바뀐다는 점이다. OpenAI는 사용량 기반 요금제가 더 넓은 도입을 이끌 것으로 보고 있다.
 
-**주목할 14일간 추세:** Cursor 상승세 지속 (+2), 현재 90점 동률. GitHub Copilot 데이터 학습 반발로 하락세 지속 (-3). Antigravity 할당량 논란으로 계속 하락 (-4).
+요금제 변경과 함께 **GPT-5.4 mini**가 Codex 전 플랫폼(앱, CLI, IDE 확장, 웹)에서 사용 가능해졌다. GPT-5.4 쿼터의 30%만 소모하므로, 일상적인 코딩에 풀 모델이 부담스러웠던 개발자에게 실용적인 선택지가 된다.
 
-## 주요 변경사항
+더 실험적인 소식으로는 **GPT-5.3-Codex-Spark** 리서치 프리뷰가 있다. 초당 1,000+ 토큰을 생성하는 이 모델은 실시간 코딩에서 지연을 거의 없앤다.
 
-- **Codex 종량제 가격 (4월 3일)**: 두 README 모두의 타임라인 및 커뮤니티 반응 섹션에 추가됨. OpenAI가 Business/Enterprise의 고정 Codex 라이선스를 토큰 기반 청구로 교체, 좌석 가격을 25달러에서 20달러로 인하.
-- **Codex 레거시 모델 종료 알림**: 4월 14일부터 gpt-5.2-codex 및 gpt-5.1 시리즈 모델이 ChatGPT 로그인용 Codex에서 제거됨.
-- **GPT-5.4 mini, Codex에 추가**: Codex 앱, CLI, IDE 익스텐션, 웹 전반에서 이용 가능 — GPT-5.4 할당량의 30%만 사용.
-- **GPT-5.3-Codex-Spark**: 실시간 코딩을 위해 1,000+ 토큰/초를 제공하는 리서치 미리보기.
+## Cursor, 조용히 90점 돌파
 
-## 출처
+Cursor가 이번 주 90점에 도달했다. 2주 전 88점에서 꾸준히 상승한 결과다. 화려한 발표 없이 일관된 품질 개선으로 승부하는 전략이 개발자들에게 통하고 있다. 안정성을 중시하는 사용자층이 두터워지는 흐름이다.
 
-- OpenAI Codex changelog & 가격 페이지
-- GitHub Copilot 릴리스 노트
-- Cursor changelog
-- Claude Code changelog
-- Gemini CLI 릴리스
-- Windsurf changelog
-- Reddit r/programming, r/ChatGPTCoding, r/ClaudeAI
-- Hacker News
-- TechCrunch, The New Stack, VentureBeat
-- Tom's Hardware
-- 각종 AI 도구 비교 사이트 (NxCode, LogRocket 등)
+## GitHub Copilot, 하락세 지속
+
+GitHub Copilot이 86점으로 추적 기간 중 최저점을 기록했다. 2주 전 89점에서 3점 하락. **데이터 학습 옵트아웃 논란** (마감: 4월 24일)이 개발자 신뢰를 계속 깎아먹고 있다. Reddit에서는 *"옵트아웃이 아니라 처음부터 옵트인이었어야 했다"*는 반응이 이어지고 있다.
+
+## 마켓 펄스
+
+| 도구 | 점수 | 변동 | 시그널 |
+|---|---|---|---|
+| ChatGPT | 97 | — | 압도적 1위, 안정 |
+| Claude Code | 92 | — | 4/7 이후 2위 유지 |
+| Cursor | 90 | ↑2 | 3주 연속 상승, 조용한 모멘텀 |
+| Claude AI | 87 | — | 안정 |
+| GitHub Copilot | 86 | ↓3 | 데이터 학습 논란 영향 |
+| Windsurf | 74 | — | 횡보 |
+| Codex CLI | 72 | — | 요금제 변경 영향 대기 |
+| Aider | 68 | — | 니치하지만 충성도 높음 |
+| Gemini CLI | 65 | — | 안정 |
+| Antigravity | 51 | ↓4 | 쿼터 논란 여파 지속 |
+
+Cursor의 상승과 Copilot의 하락이 수렴하고 있다 — 현재 격차 4점. 이 추세가 유지되면 2주 내 역전 가능성이 있다.
+
+---
+
+*출처: [OpenAI Codex changelog](https://help.openai.com), [Cursor changelog](https://cursor.com/blog), [GitHub Copilot release notes](https://github.blog), Reddit [r/ChatGPTCoding](https://reddit.com/r/ChatGPTCoding), [Hacker News](https://news.ycombinator.com), TechCrunch, VentureBeat*
