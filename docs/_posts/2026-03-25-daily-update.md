@@ -1,52 +1,51 @@
 ---
-title: "AI WhatChelin Daily — March 25, 2026"
+title: "Cursor's Secret Chinese AI Model and Sora's Sudden Death"
 date: 2026-03-25
 lang: en
-tags: [daily, popularity, claude, cursor, copilot, windsurf, gemini, codex, aider, chatgpt, antigravity, openai]
+categories: [news]
+tags: [cursor, openai, gemini, windsurf, copilot, antigravity]
+excerpt: "Cursor's Composer 2 is built on a Chinese open-source model without attribution — and OpenAI just killed Sora entirely."
 ---
 
-Claude Code ties Cursor at 86 (rising vs falling). Antigravity continues decline to 61.
+Two bombshells dropped this week in the AI tools market. Cursor's flagship Composer 2 model was quietly built on Moonshot AI's open-source Kimi K2.5, a Chinese model, without any public acknowledgment — until a developer found the model ID `kimi-k2p5` buried in API responses. The $50 billion-valued company confirmed the base model only after the discovery went viral. Meanwhile, OpenAI permanently shut down the Sora app and API on March 24, cutting off the most-hyped AI video generator entirely.
 
-## Popularity Scores
+## Cursor: The Kimi K2.5 Attribution Scandal
 
-| Tool | Score | Change |
-|---|---|---|
-| ChatGPT | 98 | — |
-| GitHub Copilot | 90 | — |
-| Claude Code | 86 | ↑1 |
-| Cursor | 86 | ↓1 |
-| Claude.ai | 83 | ↑1 |
-| Windsurf | 75 | — |
-| Codex CLI | 72 | — |
-| Aider | 68 | — |
-| Gemini CLI | 61 | ↑1 |
-| Antigravity | 61 | ↓1 |
+Cursor's Composer 2, marketed as the company's advanced AI coding model, turns out to be a wrapper around Moonshot AI's Kimi K2.5 — a Chinese open-source model — with no disclosure to users or the developer community. The revelation has sparked a broader conversation about transparency in AI product labeling: when a company builds on an open-source model, what attribution is owed? Cursor's valuation recently jumped from $29.3 billion to $50 billion in talks (Bloomberg, March 12), making the silence on this point harder to overlook. The company has since acknowledged the base model but has not addressed why it wasn't disclosed upfront.
 
-## Key Changes
+## OpenAI: Sora Is Dead
 
-- **Cursor Composer 2 / Kimi K2.5 Scandal**: Cursor's Composer 2 model was discovered to be built on Moonshot AI's open-source Kimi K2.5 without attribution. The $50B-valued company acknowledged the base model after a developer found the model ID `kimi-k2p5` in API responses. Added to IDE community reactions in both READMEs.
-- **Sora Shutdown (2026.03.24)**: OpenAI discontinued Sora app + API. Marked as discontinued across all Creator sections (video tables, flowcharts, pricing radar, rankings) in both READMEs.
-- **Cursor Valuation**: Updated from $29.3B to $50B valuation talks (Bloomberg, March 12). $2B+ ARR confirmed.
-- **Antigravity**: Continued decline in popularity (61, down from 62) amid ongoing quota controversy.
-- **Gemini CLI free tier restricted to Flash models only** (effective March 25, 2026). Free users can no longer access Gemini Pro models via CLI — Google AI Pro/Ultra subscription now required.
-- **Windsurf pricing overhaul**: Credits replaced with daily/weekly quotas. Pro price raised from $15/mo to $20/mo. Existing $15 subscribers grandfathered.
-- **Gemini 3.1 Pro now available in GitHub Copilot** (public preview, March 23) across VS Code, JetBrains, Xcode, Eclipse.
+OpenAI discontinued the Sora standalone app and API on March 24. Video generation is no longer available as a standalone product — it now lives exclusively inside ChatGPT Plus and Pro subscriptions. The shutdown was abrupt, with little advance warning to developers who had built integrations on the API.
 
-## Sources
+## Gemini CLI: Free Tier Shrinks
 
-- [Bloomberg - Cursor $50B Valuation](https://www.bloomberg.com/news/articles/2026-03-12/ai-coding-startup-cursor-in-talks-for-about-50-billion-valuation)
-- [VentureBeat - Cursor Composer 2 Kimi K2.5](https://venturebeat.com/technology/cursors-composer-2-was-secretly-built-on-a-chinese-ai-model-and-it-exposes-a)
-- [Axios - Sora Shutdown](https://www.axios.com/2026/03/24/openai-discontinue-sora-video-app)
-- [OpenAI Help Center - ChatGPT Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
-- [LogRocket - AI Dev Tool Power Rankings March 2026](https://blog.logrocket.com/ai-dev-tool-power-rankings/)
-- [Windsurf Changelog](https://windsurf.com/changelog)
-- [Google AI Developers Forum - Antigravity Updates](https://discuss.ai.google.dev/t/antigravity-update-1-20-3-2026-3-5/129320)
-- [DEV Community - AI Coding Tools Comparison 2026](https://dev.to/alexcloudstar/claude-code-vs-cursor-vs-github-copilot-the-2026-ai-coding-tool-showdown-53n4)
-- [NxCode - Best AI Coding Tools 2026](https://www.nxcode.io/resources/news/best-ai-for-coding-2026-tools-ranked)
-- windsurf.com/blog (pricing plans update)
-- github.com/google-gemini/gemini-cli (issues #23049, discussions #22970)
-- github.blog/changelog (Copilot CLI GA, Gemini 3.1 Pro preview)
-- blog.logrocket.com (AI dev tool power rankings March 2026)
-- techcrunch.com, cnn.com, variety.com (Sora shutdown coverage)
-- swebench.com, vals.ai (benchmark scores)
-- 9to5google.com (Google AI tier structure)
+Effective today, the Gemini CLI free tier is restricted to Flash models only. Free users can no longer access Gemini Pro models via the CLI — a Google AI Pro or Ultra subscription is now required. The change was flagged in GitHub issues (#23049) and community discussions (#22970) earlier this month.
+
+## GitHub Copilot: Gemini 3.1 Pro Arrives
+
+GitHub Copilot added Gemini 3.1 Pro in public preview (March 23), available across VS Code, JetBrains, Xcode, and Eclipse. The addition gives Copilot users access to one of Google's most capable models without leaving their IDE.
+
+## Windsurf: Higher Price, New Quota System
+
+Windsurf's pricing overhaul is live. Credits are gone, replaced by daily and weekly quotas. Pro tier pricing increased from $15/month to $20/month. Existing $15 subscribers are grandfathered — for now.
+
+## Market Pulse
+
+| Tool | Score | Δ | Signal |
+|---|---|---|---|
+| ChatGPT | 98 | — | Dominant |
+| GitHub Copilot | 90 | — | Stable |
+| Claude Code | 86 | ↑1 | Rising momentum |
+| Cursor | 86 | ↓1 | Attribution scandal drag |
+| Claude AI | 83 | ↑1 | Steady climb |
+| Windsurf | 75 | — | Pricing change risk |
+| Codex CLI | 72 | — | Flat |
+| Aider | 68 | — | Niche, stable |
+| Gemini CLI | 61 | ↑1 | Free tier restriction offset |
+| Antigravity | 61 | ↓1 | Quota controversy drag |
+
+Claude Code and Cursor are now tied at 86, but moving in opposite directions — one rising on momentum, one absorbing reputational damage from the Kimi K2.5 scandal.
+
+---
+
+*Sources: [Bloomberg — Cursor $50B valuation](https://www.bloomberg.com/news/articles/2026-03-12/ai-coding-startup-cursor-in-talks-for-about-50-billion-valuation), [VentureBeat — Cursor Composer 2 / Kimi K2.5](https://venturebeat.com/technology/cursors-composer-2-was-secretly-built-on-a-chinese-ai-model-and-it-exposes-a), [Axios — Sora shutdown](https://www.axios.com/2026/03/24/openai-discontinue-sora-video-app), [GitHub Copilot changelog](https://github.blog), [Windsurf changelog](https://windsurf.com/changelog), [Gemini CLI GitHub](https://github.com/google-gemini/gemini-cli)*

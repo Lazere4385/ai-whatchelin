@@ -1,47 +1,47 @@
 ---
-title: "AI WhatChelin Daily — March 30, 2026"
+title: "Claude Code Overtakes GitHub Copilot as #QuitGPT Hits 2.5 Million"
 date: 2026-03-30
 lang: en
-tags: [daily, popularity, claude, cursor, copilot, windsurf, gemini, codex, aider, chatgpt, antigravity, openai]
+categories: [news]
+tags: [claude, openai, gemini, copilot, cursor, antigravity]
+excerpt: "Claude Code hits 90 and surpasses GitHub Copilot for the first time ever, while the #QuitGPT movement surges to 2.5 million supporters and drives a 295% spike in ChatGPT uninstalls."
 ---
 
+Claude Code has done it. Reaching 90 today, it has overtaken GitHub Copilot (89) in daily popularity for the first time in this tracker's history. The milestone caps an extraordinary 12-day run: from 83 on March 18 to 90 today, Claude Code added seven points while Copilot held flat. Meanwhile, the cultural backlash against OpenAI deepened — the #QuitGPT movement crossed 2.5 million supporters and ChatGPT uninstalls surged 295% following the Pentagon-Anthropic dispute.
 
+## Claude Code: The New #2 AI Dev Tool
 
-## Popularity Scores
+Claude Code's rise to 90 makes it the second-ranked AI developer tool behind only ChatGPT. The driver is consistent execution: 74 product releases in 52 days, $2.5B ARR, Auto Mode, Computer Use integrations, and a reputation that has benefited from GitHub Copilot's data training controversy. ChatGPT still leads the broader AI assistant market at 96, but Claude Code now holds the top spot specifically in the developer tooling category, ahead of a product backed by Microsoft.
 
-| Tool | Score | Change |
-|---|---|---|
-| Claude Code | 90 | ↑1 — **overtakes GH Copilot for #1 spot** |
-| GitHub Copilot | 89 | — |
-| Cursor | 87 | — |
-| Windsurf | 75 | — |
-| Codex CLI | 72 | — |
-| Gemini CLI | 62 | — |
-| Aider | 68 | — |
-| ChatGPT | 96 | ↓1 (#QuitGPT movement impact) |
-| Claude AI | 86 | ↑1 (App Store momentum continues) |
-| Antigravity | 56 | ↓1 (ongoing quota controversy) |
+## #QuitGPT: 2.5 Million and Counting
 
-**Milestone: Claude Code (90) surpasses GitHub Copilot (89) in daily popularity for the first time.**
+What began as developer frustration over the Pentagon-Anthropic dispute has grown into a measurable movement. The hashtag #QuitGPT has gathered 2.5 million-plus supporters, and ChatGPT uninstalls jumped 295% — a number that will affect OpenAI's engagement metrics if the trend holds. The movement is diffuse and may not sustain, but the 295% uninstall spike in a single week is a real signal, not just noise.
 
-## Key Changes
+## Google: TurboQuant Rattles the Memory Market
 
-- **Google TurboQuant** (Mar 26–30): Google Research released TurboQuant, a vector compression algorithm achieving 6x KV cache reduction and 8x faster attention on H100 GPUs. SK Hynix dropped 6%, Samsung 5%, Micron 3.4%. Paper to be presented at ICLR 2026.
-- **Claude Mythos coverage continues**: Ongoing reporting on the leaked "Capybara" tier above Opus. Anthropic warning government officials about "unprecedented cybersecurity risks." No release date announced.
-- **#QuitGPT movement**: Reached 2.5M+ supporters after Pentagon-Anthropic dispute. ChatGPT uninstalls surged 295%.
-- **Community buzz**: Cog (persistent memory for Claude Code), Expect (browser testing for agents), dev-browser (CLI browser control), and n8n-mCP tools trending on developer communities.
+Google Research published TurboQuant, a vector compression algorithm achieving 6x KV cache reduction and 8x faster attention on H100 GPUs. The paper is bound for ICLR 2026. The market implications were immediate: SK Hynix fell 6%, Samsung 5%, Micron 3.4% — investors read TurboQuant as a potential demand reduction for high-bandwidth memory. That is the kind of research paper that makes semiconductor analysts nervous.
 
-## Sources
+## Developer Tools Trending
 
-- OpenAI Blog & Release Notes
-- Anthropic Blog & Claude Code Changelog
-- Google DeepMind Blog & Developers Blog
-- Cursor changelog
-- Windsurf changelog
-- GitHub Blog
-- Reddit (r/ChatGPTCoding, r/ClaudeAI, r/programming)
-- Hacker News
-- TechCrunch, The Verge, CNBC, Fortune, Axios
-- The Neuron weekend digest
-- LogRocket AI Dev Tool Rankings
-- Builder.io blog
+Several open-source tools gained traction in developer communities this weekend: **Cog** (persistent memory for Claude Code sessions), **Expect** (browser testing framework for AI agents), **dev-browser** (CLI-based browser control), and **n8n-mCP** (workflow automation with MCP). The Claude Code ecosystem is expanding organically — a sign of a platform reaching critical mass.
+
+## Market Pulse
+
+| Tool | Score | Δ | Signal |
+|---|---|---|---|
+| ChatGPT | 96 | ↓1 | #QuitGPT impact |
+| Claude Code | 90 | ↑1 | Historic milestone |
+| GitHub Copilot | 89 | — | Overtaken for first time |
+| Cursor | 87 | — | Stable |
+| Claude AI | 86 | ↑1 | App Store momentum continues |
+| Windsurf | 75 | — | Flat |
+| Aider | 68 | — | Flat |
+| Codex CLI | 72 | — | Flat |
+| Gemini CLI | 62 | — | Flat |
+| Antigravity | 56 | ↓1 | 14-day decline from 68 |
+
+Claude Code overtaking Copilot is the headline, but watch Antigravity: it has now fallen 12 points from 68 in under two weeks — the steepest sustained decline of any tool in this tracker's current period.
+
+---
+
+*Sources: [Anthropic blog](https://anthropic.com/blog), [Google DeepMind — TurboQuant](https://deepmind.google), [TechCrunch](https://techcrunch.com), [The Verge](https://theverge.com), [CNBC](https://cnbc.com), [Fortune](https://fortune.com), [Axios](https://axios.com), Reddit [r/ClaudeAI](https://reddit.com/r/ClaudeAI), [r/ChatGPTCoding](https://reddit.com/r/ChatGPTCoding), [Hacker News](https://news.ycombinator.com), [The Neuron](https://theneuron.ai)*

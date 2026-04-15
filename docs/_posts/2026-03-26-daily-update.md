@@ -1,60 +1,51 @@
 ---
-title: "AI WhatChelin Daily — March 26, 2026"
+title: "Claude Code Gets Autonomous, Copilot Sparks Privacy Backlash"
 date: 2026-03-26
 lang: en
-tags: [daily, popularity, claude, cursor, copilot, windsurf, gemini, codex, aider, chatgpt, antigravity, openai]
+categories: [news]
+tags: [claude, cursor, copilot, openai, antigravity]
+excerpt: "Anthropic's Claude Code gains autonomous permission handling and crosses $2.5B ARR, while GitHub Copilot's new data training policy lands with a 59-to-3 thumbs-down."
 ---
 
+Claude Code is now autonomous. Anthropic shipped Auto Mode on March 24, letting the agent decide its own permissions through a two-layer classifier rather than prompting users at every step. The same release added Computer Use capabilities for Cowork and Discord/Telegram Channels integrations — and the company confirmed Claude Code has crossed $2.5 billion in annual recurring revenue. On the same day, GitHub Copilot dropped a policy update that the developer community greeted with overwhelming hostility.
 
+## Claude Code: Auto Mode and $2.5B ARR
 
-## Popularity Scores
+Auto Mode removes one of the persistent friction points in agentic coding workflows: the constant permission prompts. The two-layer classifier architecture means Claude Code can now evaluate context and determine appropriate permissions independently, making it more viable for long-running automated tasks. The Computer Use expansion into Discord and Telegram opens new automation surfaces for teams already using those platforms. Anthropic's revenue milestone — $2.5B ARR — gives the Auto Mode launch commercial weight: this is a product that developers are actively paying for.
 
-| Tool | Yesterday | Today | Change |
+## Cursor: Self-Hosted Cloud Agents
+
+Cursor launched self-hosted cloud agents on March 25, allowing code and tool execution to remain within a customer's own network rather than Cursor's infrastructure. Early adopters include Brex, Money Forward, and Notion — names that signal enterprise appetite for Cursor's approach to privacy-preserving AI coding. For regulated industries and security-conscious teams, keeping execution on-premise removes a significant barrier.
+
+## GitHub Copilot: Data Training Policy Triggers Backlash
+
+GitHub announced that starting April 24, interaction data from Free, Pro, and Pro+ users will be used to train AI models unless users actively opt out. The community response was immediate and lopsided: 59 thumbs-down versus 3 thumbs-up on the announcement. The opt-out framing, rather than opt-in, is the core complaint — developers argue that training on their code without explicit consent inverts the expected default. This is the kind of trust erosion that tends to compound slowly and then suddenly.
+
+## OpenAI: Legacy Deep Research Removed
+
+OpenAI removed the legacy deep research mode from ChatGPT on March 26. Users are now directed to the current deep research experience. The change is administrative but reflects OpenAI's ongoing consolidation of ChatGPT's growing feature surface.
+
+## Claude Outage (March 25–26)
+
+A major Claude Opus 4.6 outage — the eighth significant disruption in March — saw peak incident reports reach around 4,000, response times stretch to 17 minutes, and Claude Code become effectively unusable during peak hours. For a product generating $2.5B ARR, reliability is the obvious next pressure point.
+
+## Market Pulse
+
+| Tool | Score | Δ | Signal |
 |---|---|---|---|
-| ChatGPT | 98 | 97 | ↓ -1 |
-| GitHub Copilot | 90 | 89 | ↓ -1 |
-| Claude Code | 86 | 87 | ↑ +1 |
-| Cursor | 86 | 87 | ↑ +1 |
-| Claude AI | 83 | 84 | ↑ +1 |
-| Windsurf | 75 | 75 | — |
-| Codex CLI | 72 | 72 | — |
-| Gemini CLI | 61 | 61 | — |
-| Aider | 68 | 68 | — |
-| Antigravity | 61 | 60 | ↓ -1 |
+| ChatGPT | 97 | ↓1 | Slight dip |
+| GitHub Copilot | 89 | ↓1 | Privacy backlash begins |
+| Claude Code | 87 | ↑1 | Auto Mode momentum |
+| Cursor | 87 | ↑1 | Enterprise traction |
+| Claude AI | 84 | ↑1 | Steady |
+| Windsurf | 75 | — | Flat |
+| Codex CLI | 72 | — | Flat |
+| Gemini CLI | 61 | — | Flat |
+| Aider | 68 | — | Flat |
+| Antigravity | 60 | ↓1 | Continued decline |
 
-**Risers:** Claude Code, Cursor, Claude AI each +1
-**Fallers:** ChatGPT, GitHub Copilot, Antigravity each -1
+Claude Code and Cursor both gained a point today — rising together while GitHub Copilot begins absorbing the cost of its data policy decision.
 
-## Key Changes
+---
 
-- **Claude Code Auto Mode** (Mar 24): Autonomously decides permissions via two-layer classifier. Computer Use for Cowork and Channels (Discord/Telegram) also launched. Revenue surpasses $2.5B ARR.
-- **Cursor Self-Hosted Cloud Agents** (Mar 25): Code and tool execution stays on your own network. Brex, Money Forward, Notion are early adopters.
-- **GitHub Copilot Data Training Policy** (Mar 25): Starting Apr 24, Free/Pro/Pro+ user interaction data will train AI models unless opted out. Strong negative community reaction (59 👎 vs 3 🚀).
-- **OpenAI Legacy Deep Research Removed** (Mar 26): Legacy deep research mode discontinued from ChatGPT.
-- **Anthropic 5th Economic Index** (Mar 25): Users with 6+ months experience have 10% higher success rate.
-- **LiteLLM Supply Chain Attack** (Mar 24): Malicious versions 1.82.7-1.82.8 contained credential harvesters; removed from PyPI.
-- **Claude Opus 4.6 major outage (March 25-26)**: 8th major service disruption in March. Peak of ~4,000 incident reports, 17-minute response times, Claude Code unusable during peak. Added to Anthropic timeline and community reactions in both READMEs.
-- **Fact check log date** updated to 2026-03-26.
-
-## Sources
-
-- TechCrunch, SiliconANGLE, Engadget, CNBC, The Register
-- GitHub Blog, Cursor Blog/Changelog, Anthropic Blog
-- Reddit (r/programming, r/ChatGPTCoding, r/ClaudeAI)
-- Hacker News front page
-- OpenAI release notes, Google Developers Blog
-- WinBuzzer, VentureBeat, Axios, The Neuron
-- CyberNews, AIToolly
-- status.anthropic.com (Claude status page)
-- cursor.com/blog, cursor.com/changelog
-- openai.com, help.openai.com
-- blog.google, developers.googleblog.com
-- github.blog
-- reddit.com (r/ClaudeAI, r/programming, r/ChatGPTCoding)
-- news.ycombinator.com
-- techcrunch.com, venturebeat.com
-- tomsguide.com, piunikaweb.com
-- blog.logrocket.com
-- windsurf.com, kiro.dev, aider.chat
-- midjourney.com, runwayml.com, blog.adobe.com
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
+*Sources: [Anthropic blog](https://anthropic.com/blog), [Cursor changelog](https://cursor.com/changelog), [GitHub Blog](https://github.blog), [status.anthropic.com](https://status.anthropic.com), Reddit [r/ClaudeAI](https://reddit.com/r/ClaudeAI), [r/ChatGPTCoding](https://reddit.com/r/ChatGPTCoding), [Hacker News](https://news.ycombinator.com), TechCrunch, VentureBeat*

@@ -1,44 +1,51 @@
 ---
-title: "AI WhatChelin Daily — April 7, 2026"
+title: "Claude Code Claims #2 Overall as Copilot's Data Deadline Looms"
 date: 2026-04-07
 lang: en
-tags: [daily, popularity, claude, cursor, copilot, windsurf, gemini, codex, aider, chatgpt, antigravity, openai]
+categories: [news]
+tags: [claude, copilot, gemini, codex, cursor, windsurf]
+excerpt: "Claude Code jumps two points to 92, overtaking GitHub Copilot for the second spot overall — while Copilot slides to 88 with the April 24 data training opt-out deadline adding mounting pressure."
 ---
 
-Claude Code overtakes GH Copilot for #2 overall coding tool. Antigravity continues declining amid quota controversy.
+Claude Code crossed a milestone this week that few predicted at the start of the year: at 92, it now sits second only to ChatGPT in overall AI tool rankings, having overtaken GitHub Copilot for the first time. The move reflects both Claude Code's consistent product execution and Copilot's compounding trust deficit heading into its April 24 data training deadline.
 
-## Popularity Scores
+## Claude Code: New Peak at 92
 
-| Tool | Score | Change |
-|---|---|---|
-| ChatGPT | 97 | — |
-| Claude Code | 92 | ↑2 (was 90) |
-| GH Copilot | 88 | ↓1 (was 89) |
-| Cursor | 88 | — |
-| Claude AI | 87 | ↑1 (was 86) |
-| Windsurf | 74 | ↓1 (was 75) |
-| Codex CLI | 72 | — |
-| Aider | 68 | — |
-| Gemini CLI | 64 | ↑1 (was 63) |
-| Antigravity | 52 | ↓3 (was 55) |
+The jump from 90 to 92 is Claude Code's largest two-point gain in a single tracking period. The v2.1.92 update shipped earlier this week contributed directly — the 60% faster Write tool and per-model `/cost` breakdown are the kind of developer-facing improvements that move scores. The interactive Bedrock setup wizard also opens Claude Code to enterprise AWS users who had previously found the setup process too complex. Claude Code is now the highest-scoring coding-specific tool we track.
 
-## Key Changes
+## GitHub Copilot: Sliding Toward the Deadline
 
-- **Gemini CLI v0.36.0** stable released (Apr 1) — multi-registry architecture for subagents, git worktree support, enhanced macOS/Windows sandboxing
-- **Claude Code v2.1.92** released (Apr 4) — interactive Bedrock setup wizard, per-model /cost breakdown, 60% faster Write tool
-- **Codex CLI v0.118.0** released (Apr 6) — removed legacy gpt-5.1-codex model support
-- **Sora app shutdown** approaching (Apr 26 deadline) — API shutdown on Sep 24
-- **GitHub Copilot data training opt-out** deadline Apr 24
+GitHub Copilot dropped to 88, its lowest point since our tracking began. The April 24 data training opt-out deadline is now 17 days away, and developer sentiment on Reddit and Hacker News has not improved. The core complaint — that opt-out should have been opt-in from the start — has moved from early-adopter forums to mainstream developer discussion. Microsoft has not issued a substantive response to the PR ad bug that sparked the original backlash in late March.
 
-## Sources
+## Gemini CLI: Stable Gains
 
-- code.claude.com/changelog
-- geminicli.com/docs/changelogs
-- help.openai.com/articles (ChatGPT + model release notes)
-- github.com/openai/codex/releases
-- cursor.com/blog
-- windsurf.com/changelog
-- reddit.com (r/programming, r/ChatGPTCoding)
-- news.ycombinator.com
-- techcrunch.com
-- techradar.com
+Gemini CLI reached 64, up one point, driven by continued adoption of the v0.36.0 stable release. The multi-registry subagent architecture and improved macOS/Windows sandboxing are resonating with teams that need reliable local execution. Git worktree support adds a workflow capability that's now table-stakes for serious developer tools.
+
+## Codex CLI: Legacy Model Cleanup
+
+Codex CLI v0.118.0 removed support for the legacy gpt-5.1-codex model, a housekeeping move that clears the path for the GPT-5.3 Codex Spark integration. The score held at 72, with the real test coming when Spark moves from research preview to general availability.
+
+## Sora: Clock Is Ticking
+
+The Sora app shutdown on April 26 is now 19 days away. Kling, Runway, and Vidu continue to absorb displaced users. OpenAI's video generation pivot away from Sora toward integrated video features in ChatGPT is becoming clearer with each passing week.
+
+## Market Pulse
+
+| Tool | Score | Δ | Signal |
+|---|---|---|---|
+| ChatGPT | 97 | — | Dominant, stable |
+| Claude Code | 92 | ↑2 | New all-time high, #2 overall |
+| GitHub Copilot | 88 | ↓1 | Data deadline pressure |
+| Cursor | 88 | — | Holding post-3.0 |
+| Claude AI | 87 | ↑1 | Steady climb |
+| Windsurf | 74 | ↓1 | Billing transition friction |
+| Codex CLI | 72 | — | Awaiting Spark GA |
+| Aider | 68 | — | Stable |
+| Gemini CLI | 64 | ↑1 | Consistent gains |
+| Antigravity | 52 | ↓3 | Continued decline |
+
+The Claude Code and Copilot trajectories are now clearly diverging. Claude Code gained 2 points this period; Copilot lost 1. If the April 24 deadline triggers significant user backlash, the gap could widen further. Cursor and Copilot are now tied at 88 — the Copilot-Cursor race is the secondary storyline to watch.
+
+---
+
+*Sources: [Anthropic changelog](https://code.claude.com/docs/en/changelog), [Gemini CLI changelog](https://geminicli.com/docs/changelogs), [OpenAI help](https://help.openai.com), [Codex CLI releases](https://github.com/openai/codex/releases), [Cursor blog](https://cursor.com/blog), [Windsurf changelog](https://windsurf.com/changelog), [Reddit r/ChatGPTCoding](https://reddit.com/r/ChatGPTCoding), [Hacker News](https://news.ycombinator.com), [TechCrunch](https://techcrunch.com)*

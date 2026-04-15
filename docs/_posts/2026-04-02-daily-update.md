@@ -1,64 +1,49 @@
 ---
-title: "AI WhatChelin Daily — April 2, 2026"
+title: "Claude Code Source Leak Exposes 512K Lines and 44 Unreleased Features"
 date: 2026-04-02
 lang: en
-tags: [daily, popularity, claude, cursor, copilot, windsurf, gemini, codex, aider, chatgpt, antigravity, openai]
+categories: [news]
+tags: [claude, openai, copilot, antigravity]
+excerpt: "Anthropic accidentally published half a million lines of Claude Code source to npm, then issued DMCA takedowns against thousands of GitHub repos — while OpenAI quietly retired GPT-4o."
 ---
 
+In what may be the most dramatic open-source accident in AI history, Anthropic published 512,000 lines of Claude Code's TypeScript source code to the public npm registry via a misconfigured debug file. The leak — which included 1,906 TypeScript files and 44 unreleased feature flags — triggered a cascade of events that dominated developer communities through the day. Separately, OpenAI confirmed that GPT-4o will be fully retired tomorrow across all plans.
 
+## Claude Code: The Source Leak
 
-## Popularity Scores
+The code appeared on the npm registry on March 31 as part of package v2.1.88's unobfuscated source map. Within hours, thousands of developers were cloning and analyzing the repository, with forks spreading to ~8,100 GitHub repos before Anthropic responded. The company issued DMCA takedowns against most of those repositories on April 1, then retracted the majority — a reversal that drew criticism for its inconsistency.
 
-| Tool | Score | Change |
-|---|---|---|
-| ChatGPT | 97 | — |
-| Claude Code | **91** | **↑1** |
-| GitHub Copilot | 89 | — |
-| Cursor | 88 | — |
-| Claude AI | **87** | **↑1** |
-| Windsurf | 75 | — |
-| Codex CLI | 72 | — |
-| Aider | 68 | — |
-| Gemini CLI | 63 | — |
-| Antigravity | **53** | **↓2** |
+Among the leaked feature flags was a "persistent assistant" background mode codenamed KAIROS daemon mode, suggesting Anthropic is working on an always-on coding companion. No customer data or credentials were exposed. Anthropic described the incident as a packaging error, but U.S. Rep. Gottheimer is now pressing the company on safety protocols. This is Anthropic's second security issue in days, following the Claude Mythos data leak on March 27.
 
-**Claude Code** continues its upward trend (now #2 among coding tools, surpassing Copilot), driven by massive community attention from the source code leak. **Antigravity** continues declining amid ongoing quota controversy.
+## Claude Code: v2.1.90 Update
 
-## Key Changes
+Alongside the leak chaos, Anthropic shipped Claude Code v2.1.90 with a new `/powerup` interactive lessons feature, `.husky` directory protection, a fix for the rate-limit dialog infinite loop, a `--resume` cache miss regression fix, and compatibility improvements for the Edit/Write format-on-save hook.
 
-- **Claude Code v2.1.90** (Apr 1): New `/powerup` interactive lessons, `.husky` protected directories, fixed rate-limit dialog infinite loop, `--resume` cache miss regression fix, Edit/Write format-on-save hook compatibility fix
-- **GPT-4o full retirement** (Apr 3): Tomorrow marks the final cutoff — GPT-4o will be fully retired from all ChatGPT plans including Business/Enterprise/Edu Custom GPTs
-- **Sonnet 4.5/4 1M context beta** retiring Apr 30, 2026
-### 🔥 Claude Code Source Code Leak (Major Community Event)
-- Anthropic accidentally published 512,000 lines of Claude Code source code to the public npm registry on March 31 via a misconfigured debug file
-- Leaked code contained 1,906 TypeScript files and 44 unreleased feature flags including a "persistent assistant" background mode
-- Anthropic issued DMCA takedowns against ~8,100 GitHub repos on April 1, then retracted most of them
-- No customer data or credentials were exposed — described as a packaging error
-- U.S. Rep. Gottheimer is pressing Anthropic on safety protocols following the incident
-- This is Anthropic's second security slip in days (after the Claude Mythos data leak on March 27)
-### Other Updates
-- OpenAI released GPT-5.4 nano to the API (optimized for simple high-volume tasks)
-- Anthropic retiring 1M context window beta for Sonnet 4.5/4 on April 30
-- Message Batches API max_tokens raised to 300K for Claude Opus 4.6 and Sonnet 4.6
+## OpenAI: GPT-4o Final Retirement
 
-## Sources
+GPT-4o reaches end-of-life tomorrow, April 3, with the Enterprise grace period closing. All ChatGPT plans — Business, Enterprise, and Edu Custom GPTs — will migrate to the GPT-5.x series. OpenAI also released GPT-5.4 nano today, targeting simple high-volume tasks. The Message Batches API max_tokens limit was raised to 300K for Claude Opus 4.6 and Sonnet 4.6.
 
-- code.claude.com/docs/en/changelog
-- help.openai.com (model release notes, ChatGPT release notes, GPT-4o retirement)
-- openai.com (GPT-5.4, model announcements)
-- cursor.com/blog
-- windsurf.com/changelog
-- developers.googleblog.com (Antigravity updates)
-- geminicli.com/docs/changelogs
-- github.blog/changelog
-- reddit.com (r/programming, r/vibecoding, r/ChatGPT)
-- news.ycombinator.com
-- techcrunch.com, venturebeat.com, bloomberg.com
-- Bloomberg, TechCrunch, Axios, BleepingComputer (Claude Code leak coverage)
-- OpenAI Help Center, openai.com (GPT-5.4 nano, model release notes)
-- Anthropic release notes, code.claude.com/changelog
-- Google AI blog, ai.google.dev (Gemini updates)
-- Reddit r/ClaudeAI, r/ChatGPTCoding, Hacker News
-- NxCode, emergent.sh, DEV Community (AI coding tool comparisons)
-- windsurf.com, cursor.com, aider.chat changelogs
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
+## Antigravity: Accelerating Decline
+
+Antigravity dropped two more points to 53 amid the ongoing quota controversy. With no substantive updates from the Cognition team, community patience is running thin.
+
+## Market Pulse
+
+| Tool | Score | Δ | Signal |
+|---|---|---|---|
+| ChatGPT | 97 | — | Stable |
+| Claude Code | 91 | ↑1 | Leak controversy, still rising |
+| GitHub Copilot | 89 | — | Ad fallout continuing |
+| Cursor | 88 | — | Steady |
+| Claude AI | 87 | ↑1 | App Store momentum |
+| Windsurf | 75 | — | Flat |
+| Codex CLI | 72 | — | Stable |
+| Aider | 68 | — | Niche, loyal |
+| Gemini CLI | 63 | — | Flat |
+| Antigravity | 53 | ↓2 | Accelerating decline |
+
+Counterintuitively, the Claude Code source leak appears to be driving interest rather than eroding it — the score ticked up to 91 even as the DMCA chaos unfolded. Exposure to the codebase may be building developer confidence in Anthropic's technical approach.
+
+---
+
+*Sources: [Bloomberg](https://bloomberg.com), [TechCrunch](https://techcrunch.com), [Axios](https://axios.com), [BleepingComputer](https://bleepingcomputer.com), [OpenAI Help Center](https://help.openai.com), [Anthropic changelog](https://code.claude.com/docs/en/changelog), [Reddit r/ClaudeAI](https://reddit.com/r/ClaudeAI), [Hacker News](https://news.ycombinator.com)*

@@ -1,49 +1,47 @@
 ---
-title: "AI WhatChelin Daily — April 1, 2026"
+title: "Claude Code Hits Quota Wall as Copilot's Ad Blunder Lingers"
 date: 2026-04-01
 lang: en
-tags: [daily, popularity, claude, cursor, copilot, windsurf, gemini, codex, aider, chatgpt, antigravity]
+categories: [news]
+tags: [claude, copilot, antigravity]
+excerpt: "Anthropic admits Claude Code users are hitting usage limits far ahead of schedule, while GitHub Copilot continues to absorb community backlash from last week's ad incident."
 ---
 
-Antigravity continues downward trend (55→54) amid Cognition acquisition uncertainty. Claude AI ticks up (86→87) as App Store momentum continues post-ChatGPT overtake.
+Anthropic is facing its first major infrastructure headache with Claude Code. The company confirmed that users are hitting usage limits "way faster than expected" — a combination of peak-hour throttling, a prompt caching bug, and the expiration of the 2x off-peak promotion. No fix timeline has been given. Meanwhile, the Copilot ad controversy from March 31 refuses to die, with the April 24 data training opt-out deadline adding fresh pressure.
 
-## Popularity Scores
+## Claude Code: Quota Crisis
 
-| Tool | Score | Change |
-|---|---|---|
-| Claude Code | 90 | — |
-| Cursor | 88 | — |
-| GitHub Copilot | 89 | — |
-| Windsurf | 75 | — |
-| Codex CLI | 72 | — |
-| Antigravity | 54 | ↓1 |
-| Gemini CLI | 63 | — |
-| Aider | 68 | — |
-| ChatGPT | 97 | — |
-| Claude AI | 87 | ↑1 |
+The Claude Code quota crisis is now the dominant story in AI developer communities. Posts on Reddit and Hacker News show developers hitting walls mid-session, with Anthropic's only guidance being to wait or reduce usage. The caching bug is particularly frustrating — it means tasks that should consume fewer tokens are eating full quota. This is a credibility problem for a tool that just surpassed GitHub Copilot in our tracking scores.
 
-## Key Changes
+## GitHub Copilot: Ad Fallout Continues
 
-- **Microsoft Copilot Critique + Council (Mar 30):** Multi-model intelligence feature where GPT drafts responses and Claude reviews for accuracy, achieving +13.88% improvement on the DRACO benchmark. Added to both README timelines.
-- **GitHub Copilot "ad" bug fallout continues:** Community backlash ongoing from the PR advertisement incident (Mar 31) and data training opt-out deadline (Apr 24).
-- **Claude Code momentum:** Continues upward trend, now at 91 — the highest-scoring coding-specific tool.
-- **Claude Code Quota Crisis (2026.03.31):** Anthropic acknowledged that Claude Code users are hitting usage limits "way faster than expected." Root causes include peak-hour throttling, prompt caching bugs, and the end of the 2x off-peak promotion. No resolution timeline given yet.
-- Added quota crisis entry to community reactions sections and company release timeline in both README.md and README_ko.md.
-- Updated popularity chart from 12-day to 14-day window (03-19 to 04-01).
+The PR advertisement bug from March 31 — where Copilot briefly injected promotional content into developer pull requests — remains the top story in r/programming. Microsoft has not released a detailed post-mortem. The April 24 opt-out deadline for data training is compounding sentiment: developers are questioning whether Copilot's default-opt-in approach reflects a broader shift in priorities.
 
-## Sources
+## Microsoft Copilot: Critique + Council
 
-- [GeekWire](https://www.geekwire.com) — MS Copilot Critique/Council coverage
-- [Hacker News](https://news.ycombinator.com) — Front page trending (Copilot ad story #1)
-- [Reddit](https://www.reddit.com) — r/programming, r/ChatGPT, r/ClaudeAI
-- [WindowsLatest](https://www.windowslatest.com) — Copilot ad bug confirmation
-- [AfterDawn](https://www.afterdawn.com) — Copilot data training policy
-- [SiliconANGLE](https://siliconangle.com) — Copilot Cowork coverage
-- [TechCrunch](https://techcrunch.com) — AI tool updates
-- Official pricing pages for all tracked tools
-- The Register, DevOps.com, DevClass (Claude Code quota crisis)
-- NxCode, DEV Community, Emergent.sh (AI coding tools comparison)
-- LLM-stats.com, RenovateQR (model releases)
-- Cursor.com, Windsurf.com changelogs
-- GitHub Copilot plans page
-- Reddit r/ClaudeCode, r/Anthropic, r/ChatGPTCoding
+On a more positive note, Microsoft's new Copilot Critique and Council feature went live on March 30. The multi-model setup has GPT draft a response and Claude review it for accuracy — a combination that showed a +13.88% improvement on the DRACO benchmark. It's an unusual move for Microsoft to explicitly lean on Anthropic's model for quality assurance.
+
+## Antigravity: Steady Decline
+
+Antigravity dropped another point to 54, continuing a downward slide fueled by unresolved quota controversy and uncertainty around the Cognition acquisition. Community confidence appears to be eroding faster than the team can address concerns.
+
+## Market Pulse
+
+| Tool | Score | Δ | Signal |
+|---|---|---|---|
+| ChatGPT | 97 | — | Dominant, stable |
+| Claude Code | 90 | — | Quota crisis risk |
+| GitHub Copilot | 89 | — | Ad backlash drag |
+| Cursor | 88 | — | Steady |
+| Claude AI | 87 | ↑1 | App Store momentum |
+| Windsurf | 75 | — | Flat |
+| Codex CLI | 72 | — | Stable |
+| Aider | 68 | — | Niche, loyal |
+| Gemini CLI | 63 | — | Flat |
+| Antigravity | 54 | ↓1 | Acquisition uncertainty |
+
+The Claude Code quota crisis is the story to watch this week. If Anthropic can't resolve the caching bug quickly, trust gains from the past month could erode fast. Copilot's two-front problem — the ad controversy and the data training deadline — makes the next few weeks critical for Microsoft's developer trust.
+
+---
+
+*Sources: [GeekWire](https://www.geekwire.com), [Hacker News](https://news.ycombinator.com), [Reddit r/programming](https://reddit.com/r/programming), [Reddit r/ClaudeAI](https://reddit.com/r/ClaudeAI), [WindowsLatest](https://www.windowslatest.com), [AfterDawn](https://www.afterdawn.com), [SiliconANGLE](https://siliconangle.com), [The Register](https://theregister.com), [DevOps.com](https://devops.com)*

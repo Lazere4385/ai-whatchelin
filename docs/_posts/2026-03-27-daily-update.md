@@ -1,46 +1,47 @@
 ---
-title: "AI WhatChelin Daily — March 27, 2026"
+title: "Anthropic's Internal Leak Reveals 'Claude Mythos' — a Model Above Opus"
 date: 2026-03-27
 lang: en
-tags: [daily, popularity, claude, cursor, copilot, windsurf, gemini, codex, aider, chatgpt, antigravity, openai]
+categories: [news]
+tags: [claude, gemini, openai, copilot, antigravity]
+excerpt: "A CMS misconfiguration at Anthropic exposed details of 'Claude Mythos,' a secret new tier above Opus — and cybersecurity stocks fell on the news."
 ---
 
+Anthropic's internal content management system was misconfigured, and the contents leaked online. What was exposed: details of "Claude Mythos," a new model tier sitting above Claude Opus, reportedly labeled internally as "Capybara." Fortune described it as a "step change" in capabilities with cybersecurity performance described as unprecedented. The market reacted immediately — cybersecurity stocks dropped 4 to 6 percent on the implication that an AI system with superior offensive capability was nearly ready. Anthropic has not announced a release date.
 
+## Claude Mythos: What the Leak Said
 
-## Popularity Scores
+The leaked details describe a model operating in a different capability band from the current Opus lineup. The specific framing around cybersecurity — Anthropic's own language, according to the leaked documents — suggests the company is navigating dual-use concerns carefully, even as the model nears completion. The internal codename "Capybara" has since spread across developer forums and Hacker News threads, alongside speculation about pricing tier and access controls. What Anthropic has not done is deny the existence of the project.
 
-| Tool | Score | Change |
-|---|---|---|
-| ChatGPT | 97 | — |
-| GitHub Copilot | 89 | — |
-| Claude Code | 87 | — |
-| Cursor | 87 | — |
-| Claude AI | 84 | — |
-| Windsurf | 75 | — |
-| Codex CLI | 72 | — |
-| Aider | 68 | — |
-| Gemini CLI | 61 | — |
-| Antigravity | 59 | ↓ (from 60) |
+## Google Gemini: Switching Tools for ChatGPT and Claude Users
 
-Antigravity continues its decline amid ongoing quota controversy. Claude Code and Cursor remain tied at 87.
+Google rolled out "Switching Tools" for Gemini on March 27 — utilities that let users import chat histories and memories directly from ChatGPT and Claude into Gemini. This is a deliberate migration play targeting users who may be reconsidering their ChatGPT subscriptions following the Copilot data policy controversy and the broader #QuitGPT sentiment starting to build. Lowering the friction of switching platforms is a well-worn competitive tactic, and Google is executing it here.
 
-## Key Changes
+## OpenAI: GPT-5.3-Codex Gets 12-Month LTS
 
-- **Claude Mythos data leak (Mar 27)**: Anthropic's internal CMS misconfiguration exposed details of "Claude Mythos" — a new Capybara tier above Opus. Fortune reports it as a "step change" in capabilities with unprecedented cybersecurity performance. Cybersecurity stocks dropped 4–6%. Added to both README timelines and community reactions.
-- **Google Gemini "Switching Tools" (Mar 27)**: Google rolled out tools to import chat histories and memories from ChatGPT and Claude directly into Gemini.
-- **GPT-5.3-Codex LTS (Mar 18)**: GitHub announced 12-month long-term support for GPT-5.3-Codex in Copilot Business/Enterprise — added to OpenAI and Microsoft timelines.
-- **Runway GWM-1**: Runway introduced its General World Model for real-time interactive simulation, robotics SDK, and avatars — added to Runway timeline.
-- **Copilot CLI GA**: Added to Vibe Coder evolution timeline (was previously missing).
+GitHub announced a 12-month long-term support commitment for GPT-5.3-Codex in Copilot Business and Enterprise tiers (announced March 18). For enterprise teams with compliance requirements, LTS guarantees matter more than the latest model — this is a practical win for Copilot's enterprise pitch even amid the data policy headwinds.
 
-## Sources
+## Runway: GWM-1 World Model
 
-- Google Search (AI coding tools news March 2026)
-- Claude Code, Cursor, Windsurf updates March 2026
-- GitHub Copilot, OpenAI Codex CLI news March 2026
-- ChatGPT GPT model updates March 2026
-- Gemini, Antigravity Google updates March 2026
-- AI tools news March 27 2026
-- Midjourney, Runway, Kling video AI updates March 2026
-- Perplexity, Grok, Devin AI updates March 2026
-- Claude Mythos Anthropic leak March 2026
-- GitHub Copilot CLI GA agentic March 2026
+Runway introduced its General World Model (GWM-1), targeting real-time interactive simulation, a robotics SDK, and avatar generation. It's a notable expansion beyond video generation into what Runway frames as "world modeling" — generative systems that simulate physical environments rather than just producing clips.
+
+## Market Pulse
+
+| Tool | Score | Δ | Signal |
+|---|---|---|---|
+| ChatGPT | 97 | — | Stable |
+| GitHub Copilot | 89 | — | Data policy drag building |
+| Claude Code | 87 | — | Steady |
+| Cursor | 87 | — | Steady |
+| Claude AI | 84 | — | Stable |
+| Windsurf | 75 | — | Flat |
+| Codex CLI | 72 | — | Flat |
+| Aider | 68 | — | Flat |
+| Gemini CLI | 61 | — | Flat |
+| Antigravity | 59 | ↓1 | Quota controversy continues |
+
+A quiet day in the scores, but the Claude Mythos leak is the kind of story that reshapes long-term perception — both of Anthropic's ambitions and of the cybersecurity implications of frontier AI.
+
+---
+
+*Sources: [Fortune — Claude Mythos coverage](https://fortune.com), [Hacker News](https://news.ycombinator.com), [Google Gemini blog](https://blog.google), [GitHub Blog — Copilot LTS](https://github.blog), [Runway blog](https://runwayml.com/blog), TechCrunch, VentureBeat*
